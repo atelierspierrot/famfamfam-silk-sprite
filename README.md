@@ -65,7 +65,7 @@ least of work.
 
 The CSS framework to use the sprites is based on two classes:
 
--   the first one to choose the icons size: `web-icon`,
+-   the first one that is common and global: `web-icon`,
 -   the last one to choose the icon itself, which is the name of the icon.
 
 For instance, to render a the "print" icon, you will write:
@@ -88,7 +88,7 @@ a link to www.famfamfam.com in a prominent place (e.g. the page footer), includi
 CC-BY license and the reference to www.famfamfam.com on every page using the icons.
 
 The sprite was generated with the help of [website-performance.org](http://spritegen.website-performance.org/)
-and are CSS3 valid.
+and is CSS3 valid.
 
 The minified version of the CSS file of the package was processed with the [YUI Compressor](http://refresh-sf.com/yui/).
 
