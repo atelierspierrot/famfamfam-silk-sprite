@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8" />
+    <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> <![endif]-->
+    <title>FamFamFam Silk icons CSS sprites</title>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="assets/html5boilerplate/css/normalize.css" />
+    <link rel="stylesheet" href="assets/html5boilerplate/css/main.css" />
+    <script src="assets/html5boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="assets/styles.css" />
+<!--
+	<link rel="stylesheet" href="../src/silk-icons-sprite.css" />
+//-->
+	<link rel="stylesheet" href="../src/silk-icons-sprite.min.css" />
+    <!--[if lt IE 5.5]> <link rel="stylesheet" href="assets/styles_ie_lt5.5.css" /> <![endif]-->
+    <!--[if gte IE 5.5]> <link rel="stylesheet" href="assets/styles_ie_gte5.5.css" /> <![endif]-->
+<style type="text/css">
+.sprite-overview-wrapper { display: block; width: auto; height: auto; text-align: center; background-color: #fff;}
+ul.sprite-overview { margin: 1em 3em; width: auto; display: block; list-style-type: none; }
+ul.sprite-overview li { float: left; width: 16px; height: 16px; display: inline-block; padding: 2px; margin: 5px; }
+ul.sprite-overview li:hover { border: 1px solid #ccc; padding: 1px; }
+ul.sprite-overview li a { display: inline-block; }
+</style>
+</head>
+<body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <header id="top" role="banner">
+        <hgroup>
+            <h1>FamFamFam Silk icons CSS sprite demo</h1>
+            <h2 class="slogan">The <strong>UNOFFICIAL</strong> sprites - Original icons work from <a href="http://www.famfamfam.com/" title="www.famfamfam.com">FamFamFam (Mark James - UK)</a>.</h2>
+        </hgroup>
+        <div class="hat">
+            <p>This page is a demonstration/presentation of the CSS sprite constructed on the <a href="http://www.famfamfam.com/lab/icons/silk/" title="See online">FamFamFam free "Silk" web-icons set</a>. The original set of icons is proposed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Read the license online">Creative Commons "Attribution"</a> license, free of use as long as you mention the image credits to FamFamFam.</p>
+            <p>This work is unofficial and is not liable for FamFamFam but was developed and is available for public download and use with their agreement in the conditions explained below.</p>
+        </div>
+    </header>
+
+	<nav>
+		<h2>Navigation</h2>
+        <ul id="navigation_menu" class="menu" role="navigation">
+            <li><a href="#top">Map of the demo</a><ul>
+                <li><a href="#global">Global sprite overview</a></li>
+                <li><a href="#usage">Sprite usage</a></li>
+            </ul></li>
+            <li><a href="http://www.famfamfam.com/">FamFamFam online</a></li>
+        </ul>
+
+        <div class="info">
+            <p><a href="http://github.com/atelierspierrot/famfamfam-silk-sprite">See online on GitHub</a></p>
+            <p class="comment">The sources of this package are hosted on <a href="http://github.com">GitHub</a>. To follow sources updates, report a bug or read opened bug tickets and any other information, please see the GitHub website above.</p>
+        </div>
+
+    	<p class="credits" id="user_agent"></p>
+	</nav>
+
+    <div id="content" role="main">
+
+        <article>
+
+<p>To learn more about "CSS sprites" conception, see <a href="http://en.wikipedia.org/wiki/Sprite_%28computer_graphics%29#Sprites_by_CSS" title="See online on wikipedia.com" class="external">Sprite (computer graphics) [wikipedia]</a>.</p>
+<p>The sprites were generated with the help of <a href="http://spritegen.website-performance.org/" title="See online" class="external">website-performance.org</a> and are <a href="http://jigsaw.w3.org/css-validator/" title="Validate it online" class="external">CSS3 valid</a>.</p>
+<p>The minified version of the CSS file of the package was processed with the <a href="http://refresh-sf.com/yui/" title="See online" class="external">YUI Compressor</a>.</p>
+<p>The PNG sprites are optimized with <a href="http://www.smushit.com/ysmush.it/" title="See online" class="external">Smush.it<sup>TM</sup></a>.</p>
+
+<h2 id="global">Global sprite overview</h2>
+
+<noscript><p class="warning">This page requires that JavaScript be enabled in your browser (<em>if you see this message, it doesn't seem to be the case</em>).</p></noscript>
+
+<form>
+    <label for="change_overview_bg">Change background color:&nbsp;</label>
+    <select onchange="return changeOverviewBackground();" id="change_overview_bg">
+        <option value="fff" selected>white</option>
+        <option value="999">grey</option>
+        <option value="000">black</option>
+    </select>
+</form>
+
+<div class="sprite-overview-wrapper">
+    <ul class="sprite-overview" id="sprite_overview">
+
+        <li><a href="#accept" title="accept"><span class="web-icon reset accept"></span></a></li>
+        <li><a href="#add" title="add"><span class="web-icon reset add"></span></a></li>
+        <li><a href="#anchor" title="anchor"><span class="web-icon reset anchor"></span></a></li>
+        <li><a href="#application" title="application"><span class="web-icon reset application"></span></a></li>
+        <li><a href="#application_add" title="application_add"><span class="web-icon reset application_add"></span></a></li>
+        <li><a href="#application_cascade" title="application_cascade"><span class="web-icon reset application_cascade"></span></a></li>
+        <li><a href="#application_delete" title="application_delete"><span class="web-icon reset application_delete"></span></a></li>
+        <li><a href="#application_double" title="application_double"><span class="web-icon reset application_double"></span></a></li>
+        <li><a href="#application_edit" title="application_edit"><span class="web-icon reset application_edit"></span></a></li>
+        <li><a href="#application_error" title="application_error"><span class="web-icon reset application_error"></span></a></li>
+        <li><a href="#application_form" title="application_form"><span class="web-icon reset application_form"></span></a></li>
+        <li><a href="#application_form_add" title="application_form_add"><span class="web-icon reset application_form_add"></span></a></li>
+        <li><a href="#application_form_delete" title="application_form_delete"><span class="web-icon reset application_form_delete"></span></a></li>
+        <li><a href="#application_form_edit" title="application_form_edit"><span class="web-icon reset application_form_edit"></span></a></li>
+        <li><a href="#application_form_magnify" title="application_form_magnify"><span class="web-icon reset application_form_magnify"></span></a></li>
+        <li><a href="#application_get" title="application_get"><span class="web-icon reset application_get"></span></a></li>
+        <li><a href="#application_go" title="application_go"><span class="web-icon reset application_go"></span></a></li>
+        <li><a href="#application_home" title="application_home"><span class="web-icon reset application_home"></span></a></li>
+        <li><a href="#application_key" title="application_key"><span class="web-icon reset application_key"></span></a></li>
+        <li><a href="#application_lightning" title="application_lightning"><span class="web-icon reset application_lightning"></span></a></li>
+        <li><a href="#application_link" title="application_link"><span class="web-icon reset application_link"></span></a></li>
+        <li><a href="#application_osx" title="application_osx"><span class="web-icon reset application_osx"></span></a></li>
+        <li><a href="#application_osx_terminal" title="application_osx_terminal"><span class="web-icon reset application_osx_terminal"></span></a></li>
+        <li><a href="#application_put" title="application_put"><span class="web-icon reset application_put"></span></a></li>
+        <li><a href="#application_side_boxes" title="application_side_boxes"><span class="web-icon reset application_side_boxes"></span></a></li>
+        <li><a href="#application_side_contract" title="application_side_contract"><span class="web-icon reset application_side_contract"></span></a></li>
+        <li><a href="#application_side_expand" title="application_side_expand"><span class="web-icon reset application_side_expand"></span></a></li>
+        <li><a href="#application_side_list" title="application_side_list"><span class="web-icon reset application_side_list"></span></a></li>
+        <li><a href="#application_side_tree" title="application_side_tree"><span class="web-icon reset application_side_tree"></span></a></li>
+        <li><a href="#application_split" title="application_split"><span class="web-icon reset application_split"></span></a></li>
+        <li><a href="#application_tile_horizontal" title="application_tile_horizontal"><span class="web-icon reset application_tile_horizontal"></span></a></li>
+        <li><a href="#application_tile_vertical" title="application_tile_vertical"><span class="web-icon reset application_tile_vertical"></span></a></li>
+        <li><a href="#application_view_columns" title="application_view_columns"><span class="web-icon reset application_view_columns"></span></a></li>
+        <li><a href="#application_view_detail" title="application_view_detail"><span class="web-icon reset application_view_detail"></span></a></li>
+        <li><a href="#application_view_gallery" title="application_view_gallery"><span class="web-icon reset application_view_gallery"></span></a></li>
+        <li><a href="#application_view_icons" title="application_view_icons"><span class="web-icon reset application_view_icons"></span></a></li>
+        <li><a href="#application_view_list" title="application_view_list"><span class="web-icon reset application_view_list"></span></a></li>
+        <li><a href="#application_view_tile" title="application_view_tile"><span class="web-icon reset application_view_tile"></span></a></li>
+        <li><a href="#application_xp" title="application_xp"><span class="web-icon reset application_xp"></span></a></li>
+        <li><a href="#application_xp_terminal" title="application_xp_terminal"><span class="web-icon reset application_xp_terminal"></span></a></li>
+        <li><a href="#arrow_branch" title="arrow_branch"><span class="web-icon reset arrow_branch"></span></a></li>
+        <li><a href="#arrow_divide" title="arrow_divide"><span class="web-icon reset arrow_divide"></span></a></li>
+        <li><a href="#arrow_down" title="arrow_down"><span class="web-icon reset arrow_down"></span></a></li>
+        <li><a href="#arrow_in" title="arrow_in"><span class="web-icon reset arrow_in"></span></a></li>
+        <li><a href="#arrow_inout" title="arrow_inout"><span class="web-icon reset arrow_inout"></span></a></li>
+        <li><a href="#arrow_join" title="arrow_join"><span class="web-icon reset arrow_join"></span></a></li>
+        <li><a href="#arrow_left" title="arrow_left"><span class="web-icon reset arrow_left"></span></a></li>
+        <li><a href="#arrow_merge" title="arrow_merge"><span class="web-icon reset arrow_merge"></span></a></li>
+        <li><a href="#arrow_out" title="arrow_out"><span class="web-icon reset arrow_out"></span></a></li>
+        <li><a href="#arrow_redo" title="arrow_redo"><span class="web-icon reset arrow_redo"></span></a></li>
+        <li><a href="#arrow_refresh" title="arrow_refresh"><span class="web-icon reset arrow_refresh"></span></a></li>
+        <li><a href="#arrow_refresh_small" title="arrow_refresh_small"><span class="web-icon reset arrow_refresh_small"></span></a></li>
+        <li><a href="#arrow_right" title="arrow_right"><span class="web-icon reset arrow_right"></span></a></li>
+        <li><a href="#arrow_rotate_anticlockwise" title="arrow_rotate_anticlockwise"><span class="web-icon reset arrow_rotate_anticlockwise"></span></a></li>
+        <li><a href="#arrow_rotate_clockwise" title="arrow_rotate_clockwise"><span class="web-icon reset arrow_rotate_clockwise"></span></a></li>
+        <li><a href="#arrow_switch" title="arrow_switch"><span class="web-icon reset arrow_switch"></span></a></li>
+        <li><a href="#arrow_turn_left" title="arrow_turn_left"><span class="web-icon reset arrow_turn_left"></span></a></li>
+        <li><a href="#arrow_turn_right" title="arrow_turn_right"><span class="web-icon reset arrow_turn_right"></span></a></li>
+        <li><a href="#arrow_undo" title="arrow_undo"><span class="web-icon reset arrow_undo"></span></a></li>
+        <li><a href="#arrow_up" title="arrow_up"><span class="web-icon reset arrow_up"></span></a></li>
+        <li><a href="#asterisk_orange" title="asterisk_orange"><span class="web-icon reset asterisk_orange"></span></a></li>
+        <li><a href="#asterisk_yellow" title="asterisk_yellow"><span class="web-icon reset asterisk_yellow"></span></a></li>
+        <li><a href="#attach" title="attach"><span class="web-icon reset attach"></span></a></li>
+        <li><a href="#award_star_add" title="award_star_add"><span class="web-icon reset award_star_add"></span></a></li>
+        <li><a href="#award_star_bronze_1" title="award_star_bronze_1"><span class="web-icon reset award_star_bronze_1"></span></a></li>
+        <li><a href="#award_star_bronze_2" title="award_star_bronze_2"><span class="web-icon reset award_star_bronze_2"></span></a></li>
+        <li><a href="#award_star_bronze_3" title="award_star_bronze_3"><span class="web-icon reset award_star_bronze_3"></span></a></li>
+        <li><a href="#award_star_delete" title="award_star_delete"><span class="web-icon reset award_star_delete"></span></a></li>
+        <li><a href="#award_star_gold_1" title="award_star_gold_1"><span class="web-icon reset award_star_gold_1"></span></a></li>
+        <li><a href="#award_star_gold_2" title="award_star_gold_2"><span class="web-icon reset award_star_gold_2"></span></a></li>
+        <li><a href="#award_star_gold_3" title="award_star_gold_3"><span class="web-icon reset award_star_gold_3"></span></a></li>
+        <li><a href="#award_star_silver_1" title="award_star_silver_1"><span class="web-icon reset award_star_silver_1"></span></a></li>
+        <li><a href="#award_star_silver_2" title="award_star_silver_2"><span class="web-icon reset award_star_silver_2"></span></a></li>
+        <li><a href="#award_star_silver_3" title="award_star_silver_3"><span class="web-icon reset award_star_silver_3"></span></a></li>
+        <li><a href="#basket" title="basket"><span class="web-icon reset basket"></span></a></li>
+        <li><a href="#basket_add" title="basket_add"><span class="web-icon reset basket_add"></span></a></li>
+        <li><a href="#basket_delete" title="basket_delete"><span class="web-icon reset basket_delete"></span></a></li>
+        <li><a href="#basket_edit" title="basket_edit"><span class="web-icon reset basket_edit"></span></a></li>
+        <li><a href="#basket_error" title="basket_error"><span class="web-icon reset basket_error"></span></a></li>
+        <li><a href="#basket_go" title="basket_go"><span class="web-icon reset basket_go"></span></a></li>
+        <li><a href="#basket_put" title="basket_put"><span class="web-icon reset basket_put"></span></a></li>
+        <li><a href="#basket_remove" title="basket_remove"><span class="web-icon reset basket_remove"></span></a></li>
+        <li><a href="#bell" title="bell"><span class="web-icon reset bell"></span></a></li>
+        <li><a href="#bell_add" title="bell_add"><span class="web-icon reset bell_add"></span></a></li>
+        <li><a href="#bell_delete" title="bell_delete"><span class="web-icon reset bell_delete"></span></a></li>
+        <li><a href="#bell_error" title="bell_error"><span class="web-icon reset bell_error"></span></a></li>
+        <li><a href="#bell_go" title="bell_go"><span class="web-icon reset bell_go"></span></a></li>
+        <li><a href="#bell_link" title="bell_link"><span class="web-icon reset bell_link"></span></a></li>
+        <li><a href="#bin" title="bin"><span class="web-icon reset bin"></span></a></li>
+        <li><a href="#bin_closed" title="bin_closed"><span class="web-icon reset bin_closed"></span></a></li>
+        <li><a href="#bin_empty" title="bin_empty"><span class="web-icon reset bin_empty"></span></a></li>
+        <li><a href="#bomb" title="bomb"><span class="web-icon reset bomb"></span></a></li>
+        <li><a href="#book" title="book"><span class="web-icon reset book"></span></a></li>
+        <li><a href="#book_add" title="book_add"><span class="web-icon reset book_add"></span></a></li>
+        <li><a href="#book_addresses" title="book_addresses"><span class="web-icon reset book_addresses"></span></a></li>
+        <li><a href="#book_delete" title="book_delete"><span class="web-icon reset book_delete"></span></a></li>
+        <li><a href="#book_edit" title="book_edit"><span class="web-icon reset book_edit"></span></a></li>
+        <li><a href="#book_error" title="book_error"><span class="web-icon reset book_error"></span></a></li>
+        <li><a href="#book_go" title="book_go"><span class="web-icon reset book_go"></span></a></li>
+        <li><a href="#book_key" title="book_key"><span class="web-icon reset book_key"></span></a></li>
+        <li><a href="#book_link" title="book_link"><span class="web-icon reset book_link"></span></a></li>
+        <li><a href="#book_next" title="book_next"><span class="web-icon reset book_next"></span></a></li>
+        <li><a href="#book_open" title="book_open"><span class="web-icon reset book_open"></span></a></li>
+        <li><a href="#book_previous" title="book_previous"><span class="web-icon reset book_previous"></span></a></li>
+        <li><a href="#box" title="box"><span class="web-icon reset box"></span></a></li>
+        <li><a href="#brick" title="brick"><span class="web-icon reset brick"></span></a></li>
+        <li><a href="#brick_add" title="brick_add"><span class="web-icon reset brick_add"></span></a></li>
+        <li><a href="#brick_delete" title="brick_delete"><span class="web-icon reset brick_delete"></span></a></li>
+        <li><a href="#brick_edit" title="brick_edit"><span class="web-icon reset brick_edit"></span></a></li>
+        <li><a href="#brick_error" title="brick_error"><span class="web-icon reset brick_error"></span></a></li>
+        <li><a href="#brick_go" title="brick_go"><span class="web-icon reset brick_go"></span></a></li>
+        <li><a href="#brick_link" title="brick_link"><span class="web-icon reset brick_link"></span></a></li>
+        <li><a href="#bricks" title="bricks"><span class="web-icon reset bricks"></span></a></li>
+        <li><a href="#briefcase" title="briefcase"><span class="web-icon reset briefcase"></span></a></li>
+        <li><a href="#bug" title="bug"><span class="web-icon reset bug"></span></a></li>
+        <li><a href="#bug_add" title="bug_add"><span class="web-icon reset bug_add"></span></a></li>
+        <li><a href="#bug_delete" title="bug_delete"><span class="web-icon reset bug_delete"></span></a></li>
+        <li><a href="#bug_edit" title="bug_edit"><span class="web-icon reset bug_edit"></span></a></li>
+        <li><a href="#bug_error" title="bug_error"><span class="web-icon reset bug_error"></span></a></li>
+        <li><a href="#bug_go" title="bug_go"><span class="web-icon reset bug_go"></span></a></li>
+        <li><a href="#bug_link" title="bug_link"><span class="web-icon reset bug_link"></span></a></li>
+        <li><a href="#building" title="building"><span class="web-icon reset building"></span></a></li>
+        <li><a href="#building_add" title="building_add"><span class="web-icon reset building_add"></span></a></li>
+        <li><a href="#building_delete" title="building_delete"><span class="web-icon reset building_delete"></span></a></li>
+        <li><a href="#building_edit" title="building_edit"><span class="web-icon reset building_edit"></span></a></li>
+        <li><a href="#building_error" title="building_error"><span class="web-icon reset building_error"></span></a></li>
+        <li><a href="#building_go" title="building_go"><span class="web-icon reset building_go"></span></a></li>
+        <li><a href="#building_key" title="building_key"><span class="web-icon reset building_key"></span></a></li>
+        <li><a href="#building_link" title="building_link"><span class="web-icon reset building_link"></span></a></li>
+        <li><a href="#bullet_add" title="bullet_add"><span class="web-icon reset bullet_add"></span></a></li>
+        <li><a href="#bullet_arrow_bottom" title="bullet_arrow_bottom"><span class="web-icon reset bullet_arrow_bottom"></span></a></li>
+        <li><a href="#bullet_arrow_down" title="bullet_arrow_down"><span class="web-icon reset bullet_arrow_down"></span></a></li>
+        <li><a href="#bullet_arrow_top" title="bullet_arrow_top"><span class="web-icon reset bullet_arrow_top"></span></a></li>
+        <li><a href="#bullet_arrow_up" title="bullet_arrow_up"><span class="web-icon reset bullet_arrow_up"></span></a></li>
+        <li><a href="#bullet_black" title="bullet_black"><span class="web-icon reset bullet_black"></span></a></li>
+        <li><a href="#bullet_blue" title="bullet_blue"><span class="web-icon reset bullet_blue"></span></a></li>
+        <li><a href="#bullet_delete" title="bullet_delete"><span class="web-icon reset bullet_delete"></span></a></li>
+        <li><a href="#bullet_disk" title="bullet_disk"><span class="web-icon reset bullet_disk"></span></a></li>
+        <li><a href="#bullet_error" title="bullet_error"><span class="web-icon reset bullet_error"></span></a></li>
+        <li><a href="#bullet_feed" title="bullet_feed"><span class="web-icon reset bullet_feed"></span></a></li>
+        <li><a href="#bullet_go" title="bullet_go"><span class="web-icon reset bullet_go"></span></a></li>
+        <li><a href="#bullet_green" title="bullet_green"><span class="web-icon reset bullet_green"></span></a></li>
+        <li><a href="#bullet_key" title="bullet_key"><span class="web-icon reset bullet_key"></span></a></li>
+        <li><a href="#bullet_orange" title="bullet_orange"><span class="web-icon reset bullet_orange"></span></a></li>
+        <li><a href="#bullet_picture" title="bullet_picture"><span class="web-icon reset bullet_picture"></span></a></li>
+        <li><a href="#bullet_pink" title="bullet_pink"><span class="web-icon reset bullet_pink"></span></a></li>
+        <li><a href="#bullet_purple" title="bullet_purple"><span class="web-icon reset bullet_purple"></span></a></li>
+        <li><a href="#bullet_red" title="bullet_red"><span class="web-icon reset bullet_red"></span></a></li>
+        <li><a href="#bullet_star" title="bullet_star"><span class="web-icon reset bullet_star"></span></a></li>
+        <li><a href="#bullet_toggle_minus" title="bullet_toggle_minus"><span class="web-icon reset bullet_toggle_minus"></span></a></li>
+        <li><a href="#bullet_toggle_plus" title="bullet_toggle_plus"><span class="web-icon reset bullet_toggle_plus"></span></a></li>
+        <li><a href="#bullet_white" title="bullet_white"><span class="web-icon reset bullet_white"></span></a></li>
+        <li><a href="#bullet_wrench" title="bullet_wrench"><span class="web-icon reset bullet_wrench"></span></a></li>
+        <li><a href="#bullet_yellow" title="bullet_yellow"><span class="web-icon reset bullet_yellow"></span></a></li>
+        <li><a href="#cake" title="cake"><span class="web-icon reset cake"></span></a></li>
+        <li><a href="#calculator" title="calculator"><span class="web-icon reset calculator"></span></a></li>
+        <li><a href="#calculator_add" title="calculator_add"><span class="web-icon reset calculator_add"></span></a></li>
+        <li><a href="#calculator_delete" title="calculator_delete"><span class="web-icon reset calculator_delete"></span></a></li>
+        <li><a href="#calculator_edit" title="calculator_edit"><span class="web-icon reset calculator_edit"></span></a></li>
+        <li><a href="#calculator_error" title="calculator_error"><span class="web-icon reset calculator_error"></span></a></li>
+        <li><a href="#calculator_link" title="calculator_link"><span class="web-icon reset calculator_link"></span></a></li>
+        <li><a href="#calendar" title="calendar"><span class="web-icon reset calendar"></span></a></li>
+        <li><a href="#calendar_add" title="calendar_add"><span class="web-icon reset calendar_add"></span></a></li>
+        <li><a href="#calendar_delete" title="calendar_delete"><span class="web-icon reset calendar_delete"></span></a></li>
+        <li><a href="#calendar_edit" title="calendar_edit"><span class="web-icon reset calendar_edit"></span></a></li>
+        <li><a href="#calendar_link" title="calendar_link"><span class="web-icon reset calendar_link"></span></a></li>
+        <li><a href="#calendar_view_day" title="calendar_view_day"><span class="web-icon reset calendar_view_day"></span></a></li>
+        <li><a href="#calendar_view_month" title="calendar_view_month"><span class="web-icon reset calendar_view_month"></span></a></li>
+        <li><a href="#calendar_view_week" title="calendar_view_week"><span class="web-icon reset calendar_view_week"></span></a></li>
+        <li><a href="#camera" title="camera"><span class="web-icon reset camera"></span></a></li>
+        <li><a href="#camera_add" title="camera_add"><span class="web-icon reset camera_add"></span></a></li>
+        <li><a href="#camera_delete" title="camera_delete"><span class="web-icon reset camera_delete"></span></a></li>
+        <li><a href="#camera_edit" title="camera_edit"><span class="web-icon reset camera_edit"></span></a></li>
+        <li><a href="#camera_error" title="camera_error"><span class="web-icon reset camera_error"></span></a></li>
+        <li><a href="#camera_go" title="camera_go"><span class="web-icon reset camera_go"></span></a></li>
+        <li><a href="#camera_link" title="camera_link"><span class="web-icon reset camera_link"></span></a></li>
+        <li><a href="#camera_small" title="camera_small"><span class="web-icon reset camera_small"></span></a></li>
+        <li><a href="#cancel" title="cancel"><span class="web-icon reset cancel"></span></a></li>
+        <li><a href="#car" title="car"><span class="web-icon reset car"></span></a></li>
+        <li><a href="#car_add" title="car_add"><span class="web-icon reset car_add"></span></a></li>
+        <li><a href="#car_delete" title="car_delete"><span class="web-icon reset car_delete"></span></a></li>
+        <li><a href="#cart" title="cart"><span class="web-icon reset cart"></span></a></li>
+        <li><a href="#cart_add" title="cart_add"><span class="web-icon reset cart_add"></span></a></li>
+        <li><a href="#cart_delete" title="cart_delete"><span class="web-icon reset cart_delete"></span></a></li>
+        <li><a href="#cart_edit" title="cart_edit"><span class="web-icon reset cart_edit"></span></a></li>
+        <li><a href="#cart_error" title="cart_error"><span class="web-icon reset cart_error"></span></a></li>
+        <li><a href="#cart_go" title="cart_go"><span class="web-icon reset cart_go"></span></a></li>
+        <li><a href="#cart_put" title="cart_put"><span class="web-icon reset cart_put"></span></a></li>
+        <li><a href="#cart_remove" title="cart_remove"><span class="web-icon reset cart_remove"></span></a></li>
+        <li><a href="#cd" title="cd"><span class="web-icon reset cd"></span></a></li>
+        <li><a href="#cd_add" title="cd_add"><span class="web-icon reset cd_add"></span></a></li>
+        <li><a href="#cd_burn" title="cd_burn"><span class="web-icon reset cd_burn"></span></a></li>
+        <li><a href="#cd_delete" title="cd_delete"><span class="web-icon reset cd_delete"></span></a></li>
+        <li><a href="#cd_edit" title="cd_edit"><span class="web-icon reset cd_edit"></span></a></li>
+        <li><a href="#cd_eject" title="cd_eject"><span class="web-icon reset cd_eject"></span></a></li>
+        <li><a href="#cd_go" title="cd_go"><span class="web-icon reset cd_go"></span></a></li>
+        <li><a href="#chart_bar" title="chart_bar"><span class="web-icon reset chart_bar"></span></a></li>
+        <li><a href="#chart_bar_add" title="chart_bar_add"><span class="web-icon reset chart_bar_add"></span></a></li>
+        <li><a href="#chart_bar_delete" title="chart_bar_delete"><span class="web-icon reset chart_bar_delete"></span></a></li>
+        <li><a href="#chart_bar_edit" title="chart_bar_edit"><span class="web-icon reset chart_bar_edit"></span></a></li>
+        <li><a href="#chart_bar_error" title="chart_bar_error"><span class="web-icon reset chart_bar_error"></span></a></li>
+        <li><a href="#chart_bar_link" title="chart_bar_link"><span class="web-icon reset chart_bar_link"></span></a></li>
+        <li><a href="#chart_curve" title="chart_curve"><span class="web-icon reset chart_curve"></span></a></li>
+        <li><a href="#chart_curve_add" title="chart_curve_add"><span class="web-icon reset chart_curve_add"></span></a></li>
+        <li><a href="#chart_curve_delete" title="chart_curve_delete"><span class="web-icon reset chart_curve_delete"></span></a></li>
+        <li><a href="#chart_curve_edit" title="chart_curve_edit"><span class="web-icon reset chart_curve_edit"></span></a></li>
+        <li><a href="#chart_curve_error" title="chart_curve_error"><span class="web-icon reset chart_curve_error"></span></a></li>
+        <li><a href="#chart_curve_go" title="chart_curve_go"><span class="web-icon reset chart_curve_go"></span></a></li>
+        <li><a href="#chart_curve_link" title="chart_curve_link"><span class="web-icon reset chart_curve_link"></span></a></li>
+        <li><a href="#chart_line" title="chart_line"><span class="web-icon reset chart_line"></span></a></li>
+        <li><a href="#chart_line_add" title="chart_line_add"><span class="web-icon reset chart_line_add"></span></a></li>
+        <li><a href="#chart_line_delete" title="chart_line_delete"><span class="web-icon reset chart_line_delete"></span></a></li>
+        <li><a href="#chart_line_edit" title="chart_line_edit"><span class="web-icon reset chart_line_edit"></span></a></li>
+        <li><a href="#chart_line_error" title="chart_line_error"><span class="web-icon reset chart_line_error"></span></a></li>
+        <li><a href="#chart_line_link" title="chart_line_link"><span class="web-icon reset chart_line_link"></span></a></li>
+        <li><a href="#chart_organisation" title="chart_organisation"><span class="web-icon reset chart_organisation"></span></a></li>
+        <li><a href="#chart_organisation_add" title="chart_organisation_add"><span class="web-icon reset chart_organisation_add"></span></a></li>
+        <li><a href="#chart_organisation_delete" title="chart_organisation_delete"><span class="web-icon reset chart_organisation_delete"></span></a></li>
+        <li><a href="#chart_pie" title="chart_pie"><span class="web-icon reset chart_pie"></span></a></li>
+        <li><a href="#chart_pie_add" title="chart_pie_add"><span class="web-icon reset chart_pie_add"></span></a></li>
+        <li><a href="#chart_pie_delete" title="chart_pie_delete"><span class="web-icon reset chart_pie_delete"></span></a></li>
+        <li><a href="#chart_pie_edit" title="chart_pie_edit"><span class="web-icon reset chart_pie_edit"></span></a></li>
+        <li><a href="#chart_pie_error" title="chart_pie_error"><span class="web-icon reset chart_pie_error"></span></a></li>
+        <li><a href="#chart_pie_link" title="chart_pie_link"><span class="web-icon reset chart_pie_link"></span></a></li>
+        <li><a href="#clock" title="clock"><span class="web-icon reset clock"></span></a></li>
+        <li><a href="#clock_add" title="clock_add"><span class="web-icon reset clock_add"></span></a></li>
+        <li><a href="#clock_delete" title="clock_delete"><span class="web-icon reset clock_delete"></span></a></li>
+        <li><a href="#clock_edit" title="clock_edit"><span class="web-icon reset clock_edit"></span></a></li>
+        <li><a href="#clock_error" title="clock_error"><span class="web-icon reset clock_error"></span></a></li>
+        <li><a href="#clock_go" title="clock_go"><span class="web-icon reset clock_go"></span></a></li>
+        <li><a href="#clock_link" title="clock_link"><span class="web-icon reset clock_link"></span></a></li>
+        <li><a href="#clock_pause" title="clock_pause"><span class="web-icon reset clock_pause"></span></a></li>
+        <li><a href="#clock_play" title="clock_play"><span class="web-icon reset clock_play"></span></a></li>
+        <li><a href="#clock_red" title="clock_red"><span class="web-icon reset clock_red"></span></a></li>
+        <li><a href="#clock_stop" title="clock_stop"><span class="web-icon reset clock_stop"></span></a></li>
+        <li><a href="#cog" title="cog"><span class="web-icon reset cog"></span></a></li>
+        <li><a href="#cog_add" title="cog_add"><span class="web-icon reset cog_add"></span></a></li>
+        <li><a href="#cog_delete" title="cog_delete"><span class="web-icon reset cog_delete"></span></a></li>
+        <li><a href="#cog_edit" title="cog_edit"><span class="web-icon reset cog_edit"></span></a></li>
+        <li><a href="#cog_error" title="cog_error"><span class="web-icon reset cog_error"></span></a></li>
+        <li><a href="#cog_go" title="cog_go"><span class="web-icon reset cog_go"></span></a></li>
+        <li><a href="#coins" title="coins"><span class="web-icon reset coins"></span></a></li>
+        <li><a href="#coins_add" title="coins_add"><span class="web-icon reset coins_add"></span></a></li>
+        <li><a href="#coins_delete" title="coins_delete"><span class="web-icon reset coins_delete"></span></a></li>
+        <li><a href="#color_swatch" title="color_swatch"><span class="web-icon reset color_swatch"></span></a></li>
+        <li><a href="#color_wheel" title="color_wheel"><span class="web-icon reset color_wheel"></span></a></li>
+        <li><a href="#comment" title="comment"><span class="web-icon reset comment"></span></a></li>
+        <li><a href="#comment_add" title="comment_add"><span class="web-icon reset comment_add"></span></a></li>
+        <li><a href="#comment_delete" title="comment_delete"><span class="web-icon reset comment_delete"></span></a></li>
+        <li><a href="#comment_edit" title="comment_edit"><span class="web-icon reset comment_edit"></span></a></li>
+        <li><a href="#comments" title="comments"><span class="web-icon reset comments"></span></a></li>
+        <li><a href="#comments_add" title="comments_add"><span class="web-icon reset comments_add"></span></a></li>
+        <li><a href="#comments_delete" title="comments_delete"><span class="web-icon reset comments_delete"></span></a></li>
+        <li><a href="#compress" title="compress"><span class="web-icon reset compress"></span></a></li>
+        <li><a href="#computer" title="computer"><span class="web-icon reset computer"></span></a></li>
+        <li><a href="#computer_add" title="computer_add"><span class="web-icon reset computer_add"></span></a></li>
+        <li><a href="#computer_delete" title="computer_delete"><span class="web-icon reset computer_delete"></span></a></li>
+        <li><a href="#computer_edit" title="computer_edit"><span class="web-icon reset computer_edit"></span></a></li>
+        <li><a href="#computer_error" title="computer_error"><span class="web-icon reset computer_error"></span></a></li>
+        <li><a href="#computer_go" title="computer_go"><span class="web-icon reset computer_go"></span></a></li>
+        <li><a href="#computer_key" title="computer_key"><span class="web-icon reset computer_key"></span></a></li>
+        <li><a href="#computer_link" title="computer_link"><span class="web-icon reset computer_link"></span></a></li>
+        <li><a href="#connect" title="connect"><span class="web-icon reset connect"></span></a></li>
+        <li><a href="#contrast" title="contrast"><span class="web-icon reset contrast"></span></a></li>
+        <li><a href="#contrast_decrease" title="contrast_decrease"><span class="web-icon reset contrast_decrease"></span></a></li>
+        <li><a href="#contrast_high" title="contrast_high"><span class="web-icon reset contrast_high"></span></a></li>
+        <li><a href="#contrast_increase" title="contrast_increase"><span class="web-icon reset contrast_increase"></span></a></li>
+        <li><a href="#contrast_low" title="contrast_low"><span class="web-icon reset contrast_low"></span></a></li>
+        <li><a href="#control_eject" title="control_eject"><span class="web-icon reset control_eject"></span></a></li>
+        <li><a href="#control_eject_blue" title="control_eject_blue"><span class="web-icon reset control_eject_blue"></span></a></li>
+        <li><a href="#control_end" title="control_end"><span class="web-icon reset control_end"></span></a></li>
+        <li><a href="#control_end_blue" title="control_end_blue"><span class="web-icon reset control_end_blue"></span></a></li>
+        <li><a href="#control_equalizer" title="control_equalizer"><span class="web-icon reset control_equalizer"></span></a></li>
+        <li><a href="#control_equalizer_blue" title="control_equalizer_blue"><span class="web-icon reset control_equalizer_blue"></span></a></li>
+        <li><a href="#control_fastforward" title="control_fastforward"><span class="web-icon reset control_fastforward"></span></a></li>
+        <li><a href="#control_fastforward_blue" title="control_fastforward_blue"><span class="web-icon reset control_fastforward_blue"></span></a></li>
+        <li><a href="#control_pause" title="control_pause"><span class="web-icon reset control_pause"></span></a></li>
+        <li><a href="#control_pause_blue" title="control_pause_blue"><span class="web-icon reset control_pause_blue"></span></a></li>
+        <li><a href="#control_play" title="control_play"><span class="web-icon reset control_play"></span></a></li>
+        <li><a href="#control_play_blue" title="control_play_blue"><span class="web-icon reset control_play_blue"></span></a></li>
+        <li><a href="#control_repeat" title="control_repeat"><span class="web-icon reset control_repeat"></span></a></li>
+        <li><a href="#control_repeat_blue" title="control_repeat_blue"><span class="web-icon reset control_repeat_blue"></span></a></li>
+        <li><a href="#control_rewind" title="control_rewind"><span class="web-icon reset control_rewind"></span></a></li>
+        <li><a href="#control_rewind_blue" title="control_rewind_blue"><span class="web-icon reset control_rewind_blue"></span></a></li>
+        <li><a href="#control_start" title="control_start"><span class="web-icon reset control_start"></span></a></li>
+        <li><a href="#control_start_blue" title="control_start_blue"><span class="web-icon reset control_start_blue"></span></a></li>
+        <li><a href="#control_stop" title="control_stop"><span class="web-icon reset control_stop"></span></a></li>
+        <li><a href="#control_stop_blue" title="control_stop_blue"><span class="web-icon reset control_stop_blue"></span></a></li>
+        <li><a href="#controller" title="controller"><span class="web-icon reset controller"></span></a></li>
+        <li><a href="#controller_add" title="controller_add"><span class="web-icon reset controller_add"></span></a></li>
+        <li><a href="#controller_delete" title="controller_delete"><span class="web-icon reset controller_delete"></span></a></li>
+        <li><a href="#controller_error" title="controller_error"><span class="web-icon reset controller_error"></span></a></li>
+        <li><a href="#creditcards" title="creditcards"><span class="web-icon reset creditcards"></span></a></li>
+        <li><a href="#cross" title="cross"><span class="web-icon reset cross"></span></a></li>
+        <li><a href="#css" title="css"><span class="web-icon reset css"></span></a></li>
+        <li><a href="#css_add" title="css_add"><span class="web-icon reset css_add"></span></a></li>
+        <li><a href="#css_delete" title="css_delete"><span class="web-icon reset css_delete"></span></a></li>
+        <li><a href="#css_go" title="css_go"><span class="web-icon reset css_go"></span></a></li>
+        <li><a href="#css_valid" title="css_valid"><span class="web-icon reset css_valid"></span></a></li>
+        <li><a href="#cup" title="cup"><span class="web-icon reset cup"></span></a></li>
+        <li><a href="#cup_add" title="cup_add"><span class="web-icon reset cup_add"></span></a></li>
+        <li><a href="#cup_delete" title="cup_delete"><span class="web-icon reset cup_delete"></span></a></li>
+        <li><a href="#cup_edit" title="cup_edit"><span class="web-icon reset cup_edit"></span></a></li>
+        <li><a href="#cup_error" title="cup_error"><span class="web-icon reset cup_error"></span></a></li>
+        <li><a href="#cup_go" title="cup_go"><span class="web-icon reset cup_go"></span></a></li>
+        <li><a href="#cup_key" title="cup_key"><span class="web-icon reset cup_key"></span></a></li>
+        <li><a href="#cup_link" title="cup_link"><span class="web-icon reset cup_link"></span></a></li>
+        <li><a href="#cursor" title="cursor"><span class="web-icon reset cursor"></span></a></li>
+        <li><a href="#cut" title="cut"><span class="web-icon reset cut"></span></a></li>
+        <li><a href="#cut_red" title="cut_red"><span class="web-icon reset cut_red"></span></a></li>
+        <li><a href="#database" title="database"><span class="web-icon reset database"></span></a></li>
+        <li><a href="#database_add" title="database_add"><span class="web-icon reset database_add"></span></a></li>
+        <li><a href="#database_connect" title="database_connect"><span class="web-icon reset database_connect"></span></a></li>
+        <li><a href="#database_delete" title="database_delete"><span class="web-icon reset database_delete"></span></a></li>
+        <li><a href="#database_edit" title="database_edit"><span class="web-icon reset database_edit"></span></a></li>
+        <li><a href="#database_error" title="database_error"><span class="web-icon reset database_error"></span></a></li>
+        <li><a href="#database_gear" title="database_gear"><span class="web-icon reset database_gear"></span></a></li>
+        <li><a href="#database_go" title="database_go"><span class="web-icon reset database_go"></span></a></li>
+        <li><a href="#database_key" title="database_key"><span class="web-icon reset database_key"></span></a></li>
+        <li><a href="#database_lightning" title="database_lightning"><span class="web-icon reset database_lightning"></span></a></li>
+        <li><a href="#database_link" title="database_link"><span class="web-icon reset database_link"></span></a></li>
+        <li><a href="#database_refresh" title="database_refresh"><span class="web-icon reset database_refresh"></span></a></li>
+        <li><a href="#database_save" title="database_save"><span class="web-icon reset database_save"></span></a></li>
+        <li><a href="#database_table" title="database_table"><span class="web-icon reset database_table"></span></a></li>
+        <li><a href="#date" title="date"><span class="web-icon reset date"></span></a></li>
+        <li><a href="#date_add" title="date_add"><span class="web-icon reset date_add"></span></a></li>
+        <li><a href="#date_delete" title="date_delete"><span class="web-icon reset date_delete"></span></a></li>
+        <li><a href="#date_edit" title="date_edit"><span class="web-icon reset date_edit"></span></a></li>
+        <li><a href="#date_error" title="date_error"><span class="web-icon reset date_error"></span></a></li>
+        <li><a href="#date_go" title="date_go"><span class="web-icon reset date_go"></span></a></li>
+        <li><a href="#date_link" title="date_link"><span class="web-icon reset date_link"></span></a></li>
+        <li><a href="#date_magnify" title="date_magnify"><span class="web-icon reset date_magnify"></span></a></li>
+        <li><a href="#date_next" title="date_next"><span class="web-icon reset date_next"></span></a></li>
+        <li><a href="#date_previous" title="date_previous"><span class="web-icon reset date_previous"></span></a></li>
+        <li><a href="#delete" title="delete"><span class="web-icon reset delete"></span></a></li>
+        <li><a href="#disconnect" title="disconnect"><span class="web-icon reset disconnect"></span></a></li>
+        <li><a href="#disk" title="disk"><span class="web-icon reset disk"></span></a></li>
+        <li><a href="#disk_multiple" title="disk_multiple"><span class="web-icon reset disk_multiple"></span></a></li>
+        <li><a href="#door" title="door"><span class="web-icon reset door"></span></a></li>
+        <li><a href="#door_in" title="door_in"><span class="web-icon reset door_in"></span></a></li>
+        <li><a href="#door_open" title="door_open"><span class="web-icon reset door_open"></span></a></li>
+        <li><a href="#door_out" title="door_out"><span class="web-icon reset door_out"></span></a></li>
+        <li><a href="#drink" title="drink"><span class="web-icon reset drink"></span></a></li>
+        <li><a href="#drink_empty" title="drink_empty"><span class="web-icon reset drink_empty"></span></a></li>
+        <li><a href="#drive" title="drive"><span class="web-icon reset drive"></span></a></li>
+        <li><a href="#drive_add" title="drive_add"><span class="web-icon reset drive_add"></span></a></li>
+        <li><a href="#drive_burn" title="drive_burn"><span class="web-icon reset drive_burn"></span></a></li>
+        <li><a href="#drive_cd" title="drive_cd"><span class="web-icon reset drive_cd"></span></a></li>
+        <li><a href="#drive_cd_empty" title="drive_cd_empty"><span class="web-icon reset drive_cd_empty"></span></a></li>
+        <li><a href="#drive_delete" title="drive_delete"><span class="web-icon reset drive_delete"></span></a></li>
+        <li><a href="#drive_disk" title="drive_disk"><span class="web-icon reset drive_disk"></span></a></li>
+        <li><a href="#drive_edit" title="drive_edit"><span class="web-icon reset drive_edit"></span></a></li>
+        <li><a href="#drive_error" title="drive_error"><span class="web-icon reset drive_error"></span></a></li>
+        <li><a href="#drive_go" title="drive_go"><span class="web-icon reset drive_go"></span></a></li>
+        <li><a href="#drive_key" title="drive_key"><span class="web-icon reset drive_key"></span></a></li>
+        <li><a href="#drive_link" title="drive_link"><span class="web-icon reset drive_link"></span></a></li>
+        <li><a href="#drive_magnify" title="drive_magnify"><span class="web-icon reset drive_magnify"></span></a></li>
+        <li><a href="#drive_network" title="drive_network"><span class="web-icon reset drive_network"></span></a></li>
+        <li><a href="#drive_rename" title="drive_rename"><span class="web-icon reset drive_rename"></span></a></li>
+        <li><a href="#drive_user" title="drive_user"><span class="web-icon reset drive_user"></span></a></li>
+        <li><a href="#drive_web" title="drive_web"><span class="web-icon reset drive_web"></span></a></li>
+        <li><a href="#dvd" title="dvd"><span class="web-icon reset dvd"></span></a></li>
+        <li><a href="#dvd_add" title="dvd_add"><span class="web-icon reset dvd_add"></span></a></li>
+        <li><a href="#dvd_delete" title="dvd_delete"><span class="web-icon reset dvd_delete"></span></a></li>
+        <li><a href="#dvd_edit" title="dvd_edit"><span class="web-icon reset dvd_edit"></span></a></li>
+        <li><a href="#dvd_error" title="dvd_error"><span class="web-icon reset dvd_error"></span></a></li>
+        <li><a href="#dvd_go" title="dvd_go"><span class="web-icon reset dvd_go"></span></a></li>
+        <li><a href="#dvd_key" title="dvd_key"><span class="web-icon reset dvd_key"></span></a></li>
+        <li><a href="#dvd_link" title="dvd_link"><span class="web-icon reset dvd_link"></span></a></li>
+        <li><a href="#email" title="email"><span class="web-icon reset email"></span></a></li>
+        <li><a href="#email_add" title="email_add"><span class="web-icon reset email_add"></span></a></li>
+        <li><a href="#email_attach" title="email_attach"><span class="web-icon reset email_attach"></span></a></li>
+        <li><a href="#email_delete" title="email_delete"><span class="web-icon reset email_delete"></span></a></li>
+        <li><a href="#email_edit" title="email_edit"><span class="web-icon reset email_edit"></span></a></li>
+        <li><a href="#email_error" title="email_error"><span class="web-icon reset email_error"></span></a></li>
+        <li><a href="#email_go" title="email_go"><span class="web-icon reset email_go"></span></a></li>
+        <li><a href="#email_link" title="email_link"><span class="web-icon reset email_link"></span></a></li>
+        <li><a href="#email_open" title="email_open"><span class="web-icon reset email_open"></span></a></li>
+        <li><a href="#email_open_image" title="email_open_image"><span class="web-icon reset email_open_image"></span></a></li>
+        <li><a href="#emoticon_evilgrin" title="emoticon_evilgrin"><span class="web-icon reset emoticon_evilgrin"></span></a></li>
+        <li><a href="#emoticon_grin" title="emoticon_grin"><span class="web-icon reset emoticon_grin"></span></a></li>
+        <li><a href="#emoticon_happy" title="emoticon_happy"><span class="web-icon reset emoticon_happy"></span></a></li>
+        <li><a href="#emoticon_smile" title="emoticon_smile"><span class="web-icon reset emoticon_smile"></span></a></li>
+        <li><a href="#emoticon_surprised" title="emoticon_surprised"><span class="web-icon reset emoticon_surprised"></span></a></li>
+        <li><a href="#emoticon_tongue" title="emoticon_tongue"><span class="web-icon reset emoticon_tongue"></span></a></li>
+        <li><a href="#emoticon_unhappy" title="emoticon_unhappy"><span class="web-icon reset emoticon_unhappy"></span></a></li>
+        <li><a href="#emoticon_waii" title="emoticon_waii"><span class="web-icon reset emoticon_waii"></span></a></li>
+        <li><a href="#emoticon_wink" title="emoticon_wink"><span class="web-icon reset emoticon_wink"></span></a></li>
+        <li><a href="#error" title="error"><span class="web-icon reset error"></span></a></li>
+        <li><a href="#error_add" title="error_add"><span class="web-icon reset error_add"></span></a></li>
+        <li><a href="#error_delete" title="error_delete"><span class="web-icon reset error_delete"></span></a></li>
+        <li><a href="#error_go" title="error_go"><span class="web-icon reset error_go"></span></a></li>
+        <li><a href="#exclamation" title="exclamation"><span class="web-icon reset exclamation"></span></a></li>
+        <li><a href="#eye" title="eye"><span class="web-icon reset eye"></span></a></li>
+        <li><a href="#feed" title="feed"><span class="web-icon reset feed"></span></a></li>
+        <li><a href="#feed_add" title="feed_add"><span class="web-icon reset feed_add"></span></a></li>
+        <li><a href="#feed_delete" title="feed_delete"><span class="web-icon reset feed_delete"></span></a></li>
+        <li><a href="#feed_disk" title="feed_disk"><span class="web-icon reset feed_disk"></span></a></li>
+        <li><a href="#feed_edit" title="feed_edit"><span class="web-icon reset feed_edit"></span></a></li>
+        <li><a href="#feed_error" title="feed_error"><span class="web-icon reset feed_error"></span></a></li>
+        <li><a href="#feed_go" title="feed_go"><span class="web-icon reset feed_go"></span></a></li>
+        <li><a href="#feed_key" title="feed_key"><span class="web-icon reset feed_key"></span></a></li>
+        <li><a href="#feed_link" title="feed_link"><span class="web-icon reset feed_link"></span></a></li>
+        <li><a href="#feed_magnify" title="feed_magnify"><span class="web-icon reset feed_magnify"></span></a></li>
+        <li><a href="#female" title="female"><span class="web-icon reset female"></span></a></li>
+        <li><a href="#film" title="film"><span class="web-icon reset film"></span></a></li>
+        <li><a href="#film_add" title="film_add"><span class="web-icon reset film_add"></span></a></li>
+        <li><a href="#film_delete" title="film_delete"><span class="web-icon reset film_delete"></span></a></li>
+        <li><a href="#film_edit" title="film_edit"><span class="web-icon reset film_edit"></span></a></li>
+        <li><a href="#film_error" title="film_error"><span class="web-icon reset film_error"></span></a></li>
+        <li><a href="#film_go" title="film_go"><span class="web-icon reset film_go"></span></a></li>
+        <li><a href="#film_key" title="film_key"><span class="web-icon reset film_key"></span></a></li>
+        <li><a href="#film_link" title="film_link"><span class="web-icon reset film_link"></span></a></li>
+        <li><a href="#film_save" title="film_save"><span class="web-icon reset film_save"></span></a></li>
+        <li><a href="#find" title="find"><span class="web-icon reset find"></span></a></li>
+        <li><a href="#flag_blue" title="flag_blue"><span class="web-icon reset flag_blue"></span></a></li>
+        <li><a href="#flag_green" title="flag_green"><span class="web-icon reset flag_green"></span></a></li>
+        <li><a href="#flag_orange" title="flag_orange"><span class="web-icon reset flag_orange"></span></a></li>
+        <li><a href="#flag_pink" title="flag_pink"><span class="web-icon reset flag_pink"></span></a></li>
+        <li><a href="#flag_purple" title="flag_purple"><span class="web-icon reset flag_purple"></span></a></li>
+        <li><a href="#flag_red" title="flag_red"><span class="web-icon reset flag_red"></span></a></li>
+        <li><a href="#flag_yellow" title="flag_yellow"><span class="web-icon reset flag_yellow"></span></a></li>
+        <li><a href="#folder" title="folder"><span class="web-icon reset folder"></span></a></li>
+        <li><a href="#folder_add" title="folder_add"><span class="web-icon reset folder_add"></span></a></li>
+        <li><a href="#folder_bell" title="folder_bell"><span class="web-icon reset folder_bell"></span></a></li>
+        <li><a href="#folder_brick" title="folder_brick"><span class="web-icon reset folder_brick"></span></a></li>
+        <li><a href="#folder_bug" title="folder_bug"><span class="web-icon reset folder_bug"></span></a></li>
+        <li><a href="#folder_camera" title="folder_camera"><span class="web-icon reset folder_camera"></span></a></li>
+        <li><a href="#folder_database" title="folder_database"><span class="web-icon reset folder_database"></span></a></li>
+        <li><a href="#folder_delete" title="folder_delete"><span class="web-icon reset folder_delete"></span></a></li>
+        <li><a href="#folder_edit" title="folder_edit"><span class="web-icon reset folder_edit"></span></a></li>
+        <li><a href="#folder_error" title="folder_error"><span class="web-icon reset folder_error"></span></a></li>
+        <li><a href="#folder_explore" title="folder_explore"><span class="web-icon reset folder_explore"></span></a></li>
+        <li><a href="#folder_feed" title="folder_feed"><span class="web-icon reset folder_feed"></span></a></li>
+        <li><a href="#folder_find" title="folder_find"><span class="web-icon reset folder_find"></span></a></li>
+        <li><a href="#folder_go" title="folder_go"><span class="web-icon reset folder_go"></span></a></li>
+        <li><a href="#folder_heart" title="folder_heart"><span class="web-icon reset folder_heart"></span></a></li>
+        <li><a href="#folder_image" title="folder_image"><span class="web-icon reset folder_image"></span></a></li>
+        <li><a href="#folder_key" title="folder_key"><span class="web-icon reset folder_key"></span></a></li>
+        <li><a href="#folder_lightbulb" title="folder_lightbulb"><span class="web-icon reset folder_lightbulb"></span></a></li>
+        <li><a href="#folder_link" title="folder_link"><span class="web-icon reset folder_link"></span></a></li>
+        <li><a href="#folder_magnify" title="folder_magnify"><span class="web-icon reset folder_magnify"></span></a></li>
+        <li><a href="#folder_page" title="folder_page"><span class="web-icon reset folder_page"></span></a></li>
+        <li><a href="#folder_page_white" title="folder_page_white"><span class="web-icon reset folder_page_white"></span></a></li>
+        <li><a href="#folder_palette" title="folder_palette"><span class="web-icon reset folder_palette"></span></a></li>
+        <li><a href="#folder_picture" title="folder_picture"><span class="web-icon reset folder_picture"></span></a></li>
+        <li><a href="#folder_star" title="folder_star"><span class="web-icon reset folder_star"></span></a></li>
+        <li><a href="#folder_table" title="folder_table"><span class="web-icon reset folder_table"></span></a></li>
+        <li><a href="#folder_user" title="folder_user"><span class="web-icon reset folder_user"></span></a></li>
+        <li><a href="#folder_wrench" title="folder_wrench"><span class="web-icon reset folder_wrench"></span></a></li>
+        <li><a href="#font" title="font"><span class="web-icon reset font"></span></a></li>
+        <li><a href="#font_add" title="font_add"><span class="web-icon reset font_add"></span></a></li>
+        <li><a href="#font_delete" title="font_delete"><span class="web-icon reset font_delete"></span></a></li>
+        <li><a href="#font_go" title="font_go"><span class="web-icon reset font_go"></span></a></li>
+        <li><a href="#group" title="group"><span class="web-icon reset group"></span></a></li>
+        <li><a href="#group_add" title="group_add"><span class="web-icon reset group_add"></span></a></li>
+        <li><a href="#group_delete" title="group_delete"><span class="web-icon reset group_delete"></span></a></li>
+        <li><a href="#group_edit" title="group_edit"><span class="web-icon reset group_edit"></span></a></li>
+        <li><a href="#group_error" title="group_error"><span class="web-icon reset group_error"></span></a></li>
+        <li><a href="#group_gear" title="group_gear"><span class="web-icon reset group_gear"></span></a></li>
+        <li><a href="#group_go" title="group_go"><span class="web-icon reset group_go"></span></a></li>
+        <li><a href="#group_key" title="group_key"><span class="web-icon reset group_key"></span></a></li>
+        <li><a href="#group_link" title="group_link"><span class="web-icon reset group_link"></span></a></li>
+        <li><a href="#heart" title="heart"><span class="web-icon reset heart"></span></a></li>
+        <li><a href="#heart_add" title="heart_add"><span class="web-icon reset heart_add"></span></a></li>
+        <li><a href="#heart_delete" title="heart_delete"><span class="web-icon reset heart_delete"></span></a></li>
+        <li><a href="#help" title="help"><span class="web-icon reset help"></span></a></li>
+        <li><a href="#hourglass" title="hourglass"><span class="web-icon reset hourglass"></span></a></li>
+        <li><a href="#hourglass_add" title="hourglass_add"><span class="web-icon reset hourglass_add"></span></a></li>
+        <li><a href="#hourglass_delete" title="hourglass_delete"><span class="web-icon reset hourglass_delete"></span></a></li>
+        <li><a href="#hourglass_go" title="hourglass_go"><span class="web-icon reset hourglass_go"></span></a></li>
+        <li><a href="#hourglass_link" title="hourglass_link"><span class="web-icon reset hourglass_link"></span></a></li>
+        <li><a href="#house" title="house"><span class="web-icon reset house"></span></a></li>
+        <li><a href="#house_go" title="house_go"><span class="web-icon reset house_go"></span></a></li>
+        <li><a href="#house_link" title="house_link"><span class="web-icon reset house_link"></span></a></li>
+        <li><a href="#html" title="html"><span class="web-icon reset html"></span></a></li>
+        <li><a href="#html_add" title="html_add"><span class="web-icon reset html_add"></span></a></li>
+        <li><a href="#html_delete" title="html_delete"><span class="web-icon reset html_delete"></span></a></li>
+        <li><a href="#html_go" title="html_go"><span class="web-icon reset html_go"></span></a></li>
+        <li><a href="#html_valid" title="html_valid"><span class="web-icon reset html_valid"></span></a></li>
+        <li><a href="#image" title="image"><span class="web-icon reset image"></span></a></li>
+        <li><a href="#image_add" title="image_add"><span class="web-icon reset image_add"></span></a></li>
+        <li><a href="#image_delete" title="image_delete"><span class="web-icon reset image_delete"></span></a></li>
+        <li><a href="#image_edit" title="image_edit"><span class="web-icon reset image_edit"></span></a></li>
+        <li><a href="#image_link" title="image_link"><span class="web-icon reset image_link"></span></a></li>
+        <li><a href="#images" title="images"><span class="web-icon reset images"></span></a></li>
+        <li><a href="#information" title="information"><span class="web-icon reset information"></span></a></li>
+        <li><a href="#ipod" title="ipod"><span class="web-icon reset ipod"></span></a></li>
+        <li><a href="#ipod_cast" title="ipod_cast"><span class="web-icon reset ipod_cast"></span></a></li>
+        <li><a href="#ipod_cast_add" title="ipod_cast_add"><span class="web-icon reset ipod_cast_add"></span></a></li>
+        <li><a href="#ipod_cast_delete" title="ipod_cast_delete"><span class="web-icon reset ipod_cast_delete"></span></a></li>
+        <li><a href="#ipod_sound" title="ipod_sound"><span class="web-icon reset ipod_sound"></span></a></li>
+        <li><a href="#joystick" title="joystick"><span class="web-icon reset joystick"></span></a></li>
+        <li><a href="#joystick_add" title="joystick_add"><span class="web-icon reset joystick_add"></span></a></li>
+        <li><a href="#joystick_delete" title="joystick_delete"><span class="web-icon reset joystick_delete"></span></a></li>
+        <li><a href="#joystick_error" title="joystick_error"><span class="web-icon reset joystick_error"></span></a></li>
+        <li><a href="#key" title="key"><span class="web-icon reset key"></span></a></li>
+        <li><a href="#key_add" title="key_add"><span class="web-icon reset key_add"></span></a></li>
+        <li><a href="#key_delete" title="key_delete"><span class="web-icon reset key_delete"></span></a></li>
+        <li><a href="#key_go" title="key_go"><span class="web-icon reset key_go"></span></a></li>
+        <li><a href="#keyboard" title="keyboard"><span class="web-icon reset keyboard"></span></a></li>
+        <li><a href="#keyboard_add" title="keyboard_add"><span class="web-icon reset keyboard_add"></span></a></li>
+        <li><a href="#keyboard_delete" title="keyboard_delete"><span class="web-icon reset keyboard_delete"></span></a></li>
+        <li><a href="#keyboard_magnify" title="keyboard_magnify"><span class="web-icon reset keyboard_magnify"></span></a></li>
+        <li><a href="#layers" title="layers"><span class="web-icon reset layers"></span></a></li>
+        <li><a href="#layout" title="layout"><span class="web-icon reset layout"></span></a></li>
+        <li><a href="#layout_add" title="layout_add"><span class="web-icon reset layout_add"></span></a></li>
+        <li><a href="#layout_content" title="layout_content"><span class="web-icon reset layout_content"></span></a></li>
+        <li><a href="#layout_delete" title="layout_delete"><span class="web-icon reset layout_delete"></span></a></li>
+        <li><a href="#layout_edit" title="layout_edit"><span class="web-icon reset layout_edit"></span></a></li>
+        <li><a href="#layout_error" title="layout_error"><span class="web-icon reset layout_error"></span></a></li>
+        <li><a href="#layout_header" title="layout_header"><span class="web-icon reset layout_header"></span></a></li>
+        <li><a href="#layout_link" title="layout_link"><span class="web-icon reset layout_link"></span></a></li>
+        <li><a href="#layout_sidebar" title="layout_sidebar"><span class="web-icon reset layout_sidebar"></span></a></li>
+        <li><a href="#lightbulb" title="lightbulb"><span class="web-icon reset lightbulb"></span></a></li>
+        <li><a href="#lightbulb_add" title="lightbulb_add"><span class="web-icon reset lightbulb_add"></span></a></li>
+        <li><a href="#lightbulb_delete" title="lightbulb_delete"><span class="web-icon reset lightbulb_delete"></span></a></li>
+        <li><a href="#lightbulb_off" title="lightbulb_off"><span class="web-icon reset lightbulb_off"></span></a></li>
+        <li><a href="#lightning" title="lightning"><span class="web-icon reset lightning"></span></a></li>
+        <li><a href="#lightning_add" title="lightning_add"><span class="web-icon reset lightning_add"></span></a></li>
+        <li><a href="#lightning_delete" title="lightning_delete"><span class="web-icon reset lightning_delete"></span></a></li>
+        <li><a href="#lightning_go" title="lightning_go"><span class="web-icon reset lightning_go"></span></a></li>
+        <li><a href="#link" title="link"><span class="web-icon reset link"></span></a></li>
+        <li><a href="#link_add" title="link_add"><span class="web-icon reset link_add"></span></a></li>
+        <li><a href="#link_break" title="link_break"><span class="web-icon reset link_break"></span></a></li>
+        <li><a href="#link_delete" title="link_delete"><span class="web-icon reset link_delete"></span></a></li>
+        <li><a href="#link_edit" title="link_edit"><span class="web-icon reset link_edit"></span></a></li>
+        <li><a href="#link_error" title="link_error"><span class="web-icon reset link_error"></span></a></li>
+        <li><a href="#link_go" title="link_go"><span class="web-icon reset link_go"></span></a></li>
+        <li><a href="#lock" title="lock"><span class="web-icon reset lock"></span></a></li>
+        <li><a href="#lock_add" title="lock_add"><span class="web-icon reset lock_add"></span></a></li>
+        <li><a href="#lock_break" title="lock_break"><span class="web-icon reset lock_break"></span></a></li>
+        <li><a href="#lock_delete" title="lock_delete"><span class="web-icon reset lock_delete"></span></a></li>
+        <li><a href="#lock_edit" title="lock_edit"><span class="web-icon reset lock_edit"></span></a></li>
+        <li><a href="#lock_go" title="lock_go"><span class="web-icon reset lock_go"></span></a></li>
+        <li><a href="#lock_open" title="lock_open"><span class="web-icon reset lock_open"></span></a></li>
+        <li><a href="#lorry" title="lorry"><span class="web-icon reset lorry"></span></a></li>
+        <li><a href="#lorry_add" title="lorry_add"><span class="web-icon reset lorry_add"></span></a></li>
+        <li><a href="#lorry_delete" title="lorry_delete"><span class="web-icon reset lorry_delete"></span></a></li>
+        <li><a href="#lorry_error" title="lorry_error"><span class="web-icon reset lorry_error"></span></a></li>
+        <li><a href="#lorry_flatbed" title="lorry_flatbed"><span class="web-icon reset lorry_flatbed"></span></a></li>
+        <li><a href="#lorry_go" title="lorry_go"><span class="web-icon reset lorry_go"></span></a></li>
+        <li><a href="#lorry_link" title="lorry_link"><span class="web-icon reset lorry_link"></span></a></li>
+        <li><a href="#magifier_zoom_out" title="magifier_zoom_out"><span class="web-icon reset magifier_zoom_out"></span></a></li>
+        <li><a href="#magnifier" title="magnifier"><span class="web-icon reset magnifier"></span></a></li>
+        <li><a href="#magnifier_zoom_in" title="magnifier_zoom_in"><span class="web-icon reset magnifier_zoom_in"></span></a></li>
+        <li><a href="#male" title="male"><span class="web-icon reset male"></span></a></li>
+        <li><a href="#map" title="map"><span class="web-icon reset map"></span></a></li>
+        <li><a href="#map_add" title="map_add"><span class="web-icon reset map_add"></span></a></li>
+        <li><a href="#map_delete" title="map_delete"><span class="web-icon reset map_delete"></span></a></li>
+        <li><a href="#map_edit" title="map_edit"><span class="web-icon reset map_edit"></span></a></li>
+        <li><a href="#map_go" title="map_go"><span class="web-icon reset map_go"></span></a></li>
+        <li><a href="#map_magnify" title="map_magnify"><span class="web-icon reset map_magnify"></span></a></li>
+        <li><a href="#medal_bronze_1" title="medal_bronze_1"><span class="web-icon reset medal_bronze_1"></span></a></li>
+        <li><a href="#medal_bronze_2" title="medal_bronze_2"><span class="web-icon reset medal_bronze_2"></span></a></li>
+        <li><a href="#medal_bronze_3" title="medal_bronze_3"><span class="web-icon reset medal_bronze_3"></span></a></li>
+        <li><a href="#medal_bronze_add" title="medal_bronze_add"><span class="web-icon reset medal_bronze_add"></span></a></li>
+        <li><a href="#medal_bronze_delete" title="medal_bronze_delete"><span class="web-icon reset medal_bronze_delete"></span></a></li>
+        <li><a href="#medal_gold_1" title="medal_gold_1"><span class="web-icon reset medal_gold_1"></span></a></li>
+        <li><a href="#medal_gold_2" title="medal_gold_2"><span class="web-icon reset medal_gold_2"></span></a></li>
+        <li><a href="#medal_gold_3" title="medal_gold_3"><span class="web-icon reset medal_gold_3"></span></a></li>
+        <li><a href="#medal_gold_add" title="medal_gold_add"><span class="web-icon reset medal_gold_add"></span></a></li>
+        <li><a href="#medal_gold_delete" title="medal_gold_delete"><span class="web-icon reset medal_gold_delete"></span></a></li>
+        <li><a href="#medal_silver_1" title="medal_silver_1"><span class="web-icon reset medal_silver_1"></span></a></li>
+        <li><a href="#medal_silver_2" title="medal_silver_2"><span class="web-icon reset medal_silver_2"></span></a></li>
+        <li><a href="#medal_silver_3" title="medal_silver_3"><span class="web-icon reset medal_silver_3"></span></a></li>
+        <li><a href="#medal_silver_add" title="medal_silver_add"><span class="web-icon reset medal_silver_add"></span></a></li>
+        <li><a href="#medal_silver_delete" title="medal_silver_delete"><span class="web-icon reset medal_silver_delete"></span></a></li>
+        <li><a href="#money" title="money"><span class="web-icon reset money"></span></a></li>
+        <li><a href="#money_add" title="money_add"><span class="web-icon reset money_add"></span></a></li>
+        <li><a href="#money_delete" title="money_delete"><span class="web-icon reset money_delete"></span></a></li>
+        <li><a href="#money_dollar" title="money_dollar"><span class="web-icon reset money_dollar"></span></a></li>
+        <li><a href="#money_euro" title="money_euro"><span class="web-icon reset money_euro"></span></a></li>
+        <li><a href="#money_pound" title="money_pound"><span class="web-icon reset money_pound"></span></a></li>
+        <li><a href="#money_yen" title="money_yen"><span class="web-icon reset money_yen"></span></a></li>
+        <li><a href="#monitor" title="monitor"><span class="web-icon reset monitor"></span></a></li>
+        <li><a href="#monitor_add" title="monitor_add"><span class="web-icon reset monitor_add"></span></a></li>
+        <li><a href="#monitor_delete" title="monitor_delete"><span class="web-icon reset monitor_delete"></span></a></li>
+        <li><a href="#monitor_edit" title="monitor_edit"><span class="web-icon reset monitor_edit"></span></a></li>
+        <li><a href="#monitor_error" title="monitor_error"><span class="web-icon reset monitor_error"></span></a></li>
+        <li><a href="#monitor_go" title="monitor_go"><span class="web-icon reset monitor_go"></span></a></li>
+        <li><a href="#monitor_lightning" title="monitor_lightning"><span class="web-icon reset monitor_lightning"></span></a></li>
+        <li><a href="#monitor_link" title="monitor_link"><span class="web-icon reset monitor_link"></span></a></li>
+        <li><a href="#mouse" title="mouse"><span class="web-icon reset mouse"></span></a></li>
+        <li><a href="#mouse_add" title="mouse_add"><span class="web-icon reset mouse_add"></span></a></li>
+        <li><a href="#mouse_delete" title="mouse_delete"><span class="web-icon reset mouse_delete"></span></a></li>
+        <li><a href="#mouse_error" title="mouse_error"><span class="web-icon reset mouse_error"></span></a></li>
+        <li><a href="#music" title="music"><span class="web-icon reset music"></span></a></li>
+        <li><a href="#new" title="new"><span class="web-icon reset new"></span></a></li>
+        <li><a href="#newspaper" title="newspaper"><span class="web-icon reset newspaper"></span></a></li>
+        <li><a href="#newspaper_add" title="newspaper_add"><span class="web-icon reset newspaper_add"></span></a></li>
+        <li><a href="#newspaper_delete" title="newspaper_delete"><span class="web-icon reset newspaper_delete"></span></a></li>
+        <li><a href="#newspaper_go" title="newspaper_go"><span class="web-icon reset newspaper_go"></span></a></li>
+        <li><a href="#newspaper_link" title="newspaper_link"><span class="web-icon reset newspaper_link"></span></a></li>
+        <li><a href="#note" title="note"><span class="web-icon reset note"></span></a></li>
+        <li><a href="#note_add" title="note_add"><span class="web-icon reset note_add"></span></a></li>
+        <li><a href="#note_delete" title="note_delete"><span class="web-icon reset note_delete"></span></a></li>
+        <li><a href="#note_edit" title="note_edit"><span class="web-icon reset note_edit"></span></a></li>
+        <li><a href="#note_error" title="note_error"><span class="web-icon reset note_error"></span></a></li>
+        <li><a href="#note_go" title="note_go"><span class="web-icon reset note_go"></span></a></li>
+        <li><a href="#overlays" title="overlays"><span class="web-icon reset overlays"></span></a></li>
+        <li><a href="#package" title="package"><span class="web-icon reset package"></span></a></li>
+        <li><a href="#package_add" title="package_add"><span class="web-icon reset package_add"></span></a></li>
+        <li><a href="#package_delete" title="package_delete"><span class="web-icon reset package_delete"></span></a></li>
+        <li><a href="#package_go" title="package_go"><span class="web-icon reset package_go"></span></a></li>
+        <li><a href="#package_green" title="package_green"><span class="web-icon reset package_green"></span></a></li>
+        <li><a href="#package_link" title="package_link"><span class="web-icon reset package_link"></span></a></li>
+        <li><a href="#page" title="page"><span class="web-icon reset page"></span></a></li>
+        <li><a href="#page_add" title="page_add"><span class="web-icon reset page_add"></span></a></li>
+        <li><a href="#page_attach" title="page_attach"><span class="web-icon reset page_attach"></span></a></li>
+        <li><a href="#page_code" title="page_code"><span class="web-icon reset page_code"></span></a></li>
+        <li><a href="#page_copy" title="page_copy"><span class="web-icon reset page_copy"></span></a></li>
+        <li><a href="#page_delete" title="page_delete"><span class="web-icon reset page_delete"></span></a></li>
+        <li><a href="#page_edit" title="page_edit"><span class="web-icon reset page_edit"></span></a></li>
+        <li><a href="#page_error" title="page_error"><span class="web-icon reset page_error"></span></a></li>
+        <li><a href="#page_excel" title="page_excel"><span class="web-icon reset page_excel"></span></a></li>
+        <li><a href="#page_find" title="page_find"><span class="web-icon reset page_find"></span></a></li>
+        <li><a href="#page_gear" title="page_gear"><span class="web-icon reset page_gear"></span></a></li>
+        <li><a href="#page_go" title="page_go"><span class="web-icon reset page_go"></span></a></li>
+        <li><a href="#page_green" title="page_green"><span class="web-icon reset page_green"></span></a></li>
+        <li><a href="#page_key" title="page_key"><span class="web-icon reset page_key"></span></a></li>
+        <li><a href="#page_lightning" title="page_lightning"><span class="web-icon reset page_lightning"></span></a></li>
+        <li><a href="#page_link" title="page_link"><span class="web-icon reset page_link"></span></a></li>
+        <li><a href="#page_paintbrush" title="page_paintbrush"><span class="web-icon reset page_paintbrush"></span></a></li>
+        <li><a href="#page_paste" title="page_paste"><span class="web-icon reset page_paste"></span></a></li>
+        <li><a href="#page_red" title="page_red"><span class="web-icon reset page_red"></span></a></li>
+        <li><a href="#page_refresh" title="page_refresh"><span class="web-icon reset page_refresh"></span></a></li>
+        <li><a href="#page_save" title="page_save"><span class="web-icon reset page_save"></span></a></li>
+        <li><a href="#page_white" title="page_white"><span class="web-icon reset page_white"></span></a></li>
+        <li><a href="#page_white_acrobat" title="page_white_acrobat"><span class="web-icon reset page_white_acrobat"></span></a></li>
+        <li><a href="#page_white_actionscript" title="page_white_actionscript"><span class="web-icon reset page_white_actionscript"></span></a></li>
+        <li><a href="#page_white_add" title="page_white_add"><span class="web-icon reset page_white_add"></span></a></li>
+        <li><a href="#page_white_c" title="page_white_c"><span class="web-icon reset page_white_c"></span></a></li>
+        <li><a href="#page_white_camera" title="page_white_camera"><span class="web-icon reset page_white_camera"></span></a></li>
+        <li><a href="#page_white_cd" title="page_white_cd"><span class="web-icon reset page_white_cd"></span></a></li>
+        <li><a href="#page_white_code" title="page_white_code"><span class="web-icon reset page_white_code"></span></a></li>
+        <li><a href="#page_white_code_red" title="page_white_code_red"><span class="web-icon reset page_white_code_red"></span></a></li>
+        <li><a href="#page_white_coldfusion" title="page_white_coldfusion"><span class="web-icon reset page_white_coldfusion"></span></a></li>
+        <li><a href="#page_white_compressed" title="page_white_compressed"><span class="web-icon reset page_white_compressed"></span></a></li>
+        <li><a href="#page_white_copy" title="page_white_copy"><span class="web-icon reset page_white_copy"></span></a></li>
+        <li><a href="#page_white_cplusplus" title="page_white_cplusplus"><span class="web-icon reset page_white_cplusplus"></span></a></li>
+        <li><a href="#page_white_csharp" title="page_white_csharp"><span class="web-icon reset page_white_csharp"></span></a></li>
+        <li><a href="#page_white_cup" title="page_white_cup"><span class="web-icon reset page_white_cup"></span></a></li>
+        <li><a href="#page_white_database" title="page_white_database"><span class="web-icon reset page_white_database"></span></a></li>
+        <li><a href="#page_white_delete" title="page_white_delete"><span class="web-icon reset page_white_delete"></span></a></li>
+        <li><a href="#page_white_dvd" title="page_white_dvd"><span class="web-icon reset page_white_dvd"></span></a></li>
+        <li><a href="#page_white_edit" title="page_white_edit"><span class="web-icon reset page_white_edit"></span></a></li>
+        <li><a href="#page_white_error" title="page_white_error"><span class="web-icon reset page_white_error"></span></a></li>
+        <li><a href="#page_white_excel" title="page_white_excel"><span class="web-icon reset page_white_excel"></span></a></li>
+        <li><a href="#page_white_find" title="page_white_find"><span class="web-icon reset page_white_find"></span></a></li>
+        <li><a href="#page_white_flash" title="page_white_flash"><span class="web-icon reset page_white_flash"></span></a></li>
+        <li><a href="#page_white_freehand" title="page_white_freehand"><span class="web-icon reset page_white_freehand"></span></a></li>
+        <li><a href="#page_white_gear" title="page_white_gear"><span class="web-icon reset page_white_gear"></span></a></li>
+        <li><a href="#page_white_get" title="page_white_get"><span class="web-icon reset page_white_get"></span></a></li>
+        <li><a href="#page_white_go" title="page_white_go"><span class="web-icon reset page_white_go"></span></a></li>
+        <li><a href="#page_white_h" title="page_white_h"><span class="web-icon reset page_white_h"></span></a></li>
+        <li><a href="#page_white_horizontal" title="page_white_horizontal"><span class="web-icon reset page_white_horizontal"></span></a></li>
+        <li><a href="#page_white_key" title="page_white_key"><span class="web-icon reset page_white_key"></span></a></li>
+        <li><a href="#page_white_lightning" title="page_white_lightning"><span class="web-icon reset page_white_lightning"></span></a></li>
+        <li><a href="#page_white_link" title="page_white_link"><span class="web-icon reset page_white_link"></span></a></li>
+        <li><a href="#page_white_magnify" title="page_white_magnify"><span class="web-icon reset page_white_magnify"></span></a></li>
+        <li><a href="#page_white_medal" title="page_white_medal"><span class="web-icon reset page_white_medal"></span></a></li>
+        <li><a href="#page_white_office" title="page_white_office"><span class="web-icon reset page_white_office"></span></a></li>
+        <li><a href="#page_white_paint" title="page_white_paint"><span class="web-icon reset page_white_paint"></span></a></li>
+        <li><a href="#page_white_paintbrush" title="page_white_paintbrush"><span class="web-icon reset page_white_paintbrush"></span></a></li>
+        <li><a href="#page_white_paste" title="page_white_paste"><span class="web-icon reset page_white_paste"></span></a></li>
+        <li><a href="#page_white_php" title="page_white_php"><span class="web-icon reset page_white_php"></span></a></li>
+        <li><a href="#page_white_picture" title="page_white_picture"><span class="web-icon reset page_white_picture"></span></a></li>
+        <li><a href="#page_white_powerpoint" title="page_white_powerpoint"><span class="web-icon reset page_white_powerpoint"></span></a></li>
+        <li><a href="#page_white_put" title="page_white_put"><span class="web-icon reset page_white_put"></span></a></li>
+        <li><a href="#page_white_ruby" title="page_white_ruby"><span class="web-icon reset page_white_ruby"></span></a></li>
+        <li><a href="#page_white_stack" title="page_white_stack"><span class="web-icon reset page_white_stack"></span></a></li>
+        <li><a href="#page_white_star" title="page_white_star"><span class="web-icon reset page_white_star"></span></a></li>
+        <li><a href="#page_white_swoosh" title="page_white_swoosh"><span class="web-icon reset page_white_swoosh"></span></a></li>
+        <li><a href="#page_white_text" title="page_white_text"><span class="web-icon reset page_white_text"></span></a></li>
+        <li><a href="#page_white_text_width" title="page_white_text_width"><span class="web-icon reset page_white_text_width"></span></a></li>
+        <li><a href="#page_white_tux" title="page_white_tux"><span class="web-icon reset page_white_tux"></span></a></li>
+        <li><a href="#page_white_vector" title="page_white_vector"><span class="web-icon reset page_white_vector"></span></a></li>
+        <li><a href="#page_white_visualstudio" title="page_white_visualstudio"><span class="web-icon reset page_white_visualstudio"></span></a></li>
+        <li><a href="#page_white_width" title="page_white_width"><span class="web-icon reset page_white_width"></span></a></li>
+        <li><a href="#page_white_word" title="page_white_word"><span class="web-icon reset page_white_word"></span></a></li>
+        <li><a href="#page_white_world" title="page_white_world"><span class="web-icon reset page_white_world"></span></a></li>
+        <li><a href="#page_white_wrench" title="page_white_wrench"><span class="web-icon reset page_white_wrench"></span></a></li>
+        <li><a href="#page_white_zip" title="page_white_zip"><span class="web-icon reset page_white_zip"></span></a></li>
+        <li><a href="#page_word" title="page_word"><span class="web-icon reset page_word"></span></a></li>
+        <li><a href="#page_world" title="page_world"><span class="web-icon reset page_world"></span></a></li>
+        <li><a href="#paintbrush" title="paintbrush"><span class="web-icon reset paintbrush"></span></a></li>
+        <li><a href="#paintcan" title="paintcan"><span class="web-icon reset paintcan"></span></a></li>
+        <li><a href="#palette" title="palette"><span class="web-icon reset palette"></span></a></li>
+        <li><a href="#paste_plain" title="paste_plain"><span class="web-icon reset paste_plain"></span></a></li>
+        <li><a href="#paste_word" title="paste_word"><span class="web-icon reset paste_word"></span></a></li>
+        <li><a href="#pencil" title="pencil"><span class="web-icon reset pencil"></span></a></li>
+        <li><a href="#pencil_add" title="pencil_add"><span class="web-icon reset pencil_add"></span></a></li>
+        <li><a href="#pencil_delete" title="pencil_delete"><span class="web-icon reset pencil_delete"></span></a></li>
+        <li><a href="#pencil_go" title="pencil_go"><span class="web-icon reset pencil_go"></span></a></li>
+        <li><a href="#phone" title="phone"><span class="web-icon reset phone"></span></a></li>
+        <li><a href="#phone_add" title="phone_add"><span class="web-icon reset phone_add"></span></a></li>
+        <li><a href="#phone_delete" title="phone_delete"><span class="web-icon reset phone_delete"></span></a></li>
+        <li><a href="#phone_sound" title="phone_sound"><span class="web-icon reset phone_sound"></span></a></li>
+        <li><a href="#photo" title="photo"><span class="web-icon reset photo"></span></a></li>
+        <li><a href="#photo_add" title="photo_add"><span class="web-icon reset photo_add"></span></a></li>
+        <li><a href="#photo_delete" title="photo_delete"><span class="web-icon reset photo_delete"></span></a></li>
+        <li><a href="#photo_link" title="photo_link"><span class="web-icon reset photo_link"></span></a></li>
+        <li><a href="#photos" title="photos"><span class="web-icon reset photos"></span></a></li>
+        <li><a href="#picture" title="picture"><span class="web-icon reset picture"></span></a></li>
+        <li><a href="#picture_add" title="picture_add"><span class="web-icon reset picture_add"></span></a></li>
+        <li><a href="#picture_delete" title="picture_delete"><span class="web-icon reset picture_delete"></span></a></li>
+        <li><a href="#picture_edit" title="picture_edit"><span class="web-icon reset picture_edit"></span></a></li>
+        <li><a href="#picture_empty" title="picture_empty"><span class="web-icon reset picture_empty"></span></a></li>
+        <li><a href="#picture_error" title="picture_error"><span class="web-icon reset picture_error"></span></a></li>
+        <li><a href="#picture_go" title="picture_go"><span class="web-icon reset picture_go"></span></a></li>
+        <li><a href="#picture_key" title="picture_key"><span class="web-icon reset picture_key"></span></a></li>
+        <li><a href="#picture_link" title="picture_link"><span class="web-icon reset picture_link"></span></a></li>
+        <li><a href="#picture_save" title="picture_save"><span class="web-icon reset picture_save"></span></a></li>
+        <li><a href="#pictures" title="pictures"><span class="web-icon reset pictures"></span></a></li>
+        <li><a href="#pilcrow" title="pilcrow"><span class="web-icon reset pilcrow"></span></a></li>
+        <li><a href="#pill" title="pill"><span class="web-icon reset pill"></span></a></li>
+        <li><a href="#pill_add" title="pill_add"><span class="web-icon reset pill_add"></span></a></li>
+        <li><a href="#pill_delete" title="pill_delete"><span class="web-icon reset pill_delete"></span></a></li>
+        <li><a href="#pill_go" title="pill_go"><span class="web-icon reset pill_go"></span></a></li>
+        <li><a href="#plugin" title="plugin"><span class="web-icon reset plugin"></span></a></li>
+        <li><a href="#plugin_add" title="plugin_add"><span class="web-icon reset plugin_add"></span></a></li>
+        <li><a href="#plugin_delete" title="plugin_delete"><span class="web-icon reset plugin_delete"></span></a></li>
+        <li><a href="#plugin_disabled" title="plugin_disabled"><span class="web-icon reset plugin_disabled"></span></a></li>
+        <li><a href="#plugin_edit" title="plugin_edit"><span class="web-icon reset plugin_edit"></span></a></li>
+        <li><a href="#plugin_error" title="plugin_error"><span class="web-icon reset plugin_error"></span></a></li>
+        <li><a href="#plugin_go" title="plugin_go"><span class="web-icon reset plugin_go"></span></a></li>
+        <li><a href="#plugin_link" title="plugin_link"><span class="web-icon reset plugin_link"></span></a></li>
+        <li><a href="#printer" title="printer"><span class="web-icon reset printer"></span></a></li>
+        <li><a href="#printer_add" title="printer_add"><span class="web-icon reset printer_add"></span></a></li>
+        <li><a href="#printer_delete" title="printer_delete"><span class="web-icon reset printer_delete"></span></a></li>
+        <li><a href="#printer_empty" title="printer_empty"><span class="web-icon reset printer_empty"></span></a></li>
+        <li><a href="#printer_error" title="printer_error"><span class="web-icon reset printer_error"></span></a></li>
+        <li><a href="#rainbow" title="rainbow"><span class="web-icon reset rainbow"></span></a></li>
+        <li><a href="#report" title="report"><span class="web-icon reset report"></span></a></li>
+        <li><a href="#report_add" title="report_add"><span class="web-icon reset report_add"></span></a></li>
+        <li><a href="#report_delete" title="report_delete"><span class="web-icon reset report_delete"></span></a></li>
+        <li><a href="#report_disk" title="report_disk"><span class="web-icon reset report_disk"></span></a></li>
+        <li><a href="#report_edit" title="report_edit"><span class="web-icon reset report_edit"></span></a></li>
+        <li><a href="#report_go" title="report_go"><span class="web-icon reset report_go"></span></a></li>
+        <li><a href="#report_key" title="report_key"><span class="web-icon reset report_key"></span></a></li>
+        <li><a href="#report_link" title="report_link"><span class="web-icon reset report_link"></span></a></li>
+        <li><a href="#report_magnify" title="report_magnify"><span class="web-icon reset report_magnify"></span></a></li>
+        <li><a href="#report_picture" title="report_picture"><span class="web-icon reset report_picture"></span></a></li>
+        <li><a href="#report_user" title="report_user"><span class="web-icon reset report_user"></span></a></li>
+        <li><a href="#report_word" title="report_word"><span class="web-icon reset report_word"></span></a></li>
+        <li><a href="#resultset_first" title="resultset_first"><span class="web-icon reset resultset_first"></span></a></li>
+        <li><a href="#resultset_last" title="resultset_last"><span class="web-icon reset resultset_last"></span></a></li>
+        <li><a href="#resultset_next" title="resultset_next"><span class="web-icon reset resultset_next"></span></a></li>
+        <li><a href="#resultset_previous" title="resultset_previous"><span class="web-icon reset resultset_previous"></span></a></li>
+        <li><a href="#rosette" title="rosette"><span class="web-icon reset rosette"></span></a></li>
+        <li><a href="#rss" title="rss"><span class="web-icon reset rss"></span></a></li>
+        <li><a href="#rss_add" title="rss_add"><span class="web-icon reset rss_add"></span></a></li>
+        <li><a href="#rss_delete" title="rss_delete"><span class="web-icon reset rss_delete"></span></a></li>
+        <li><a href="#rss_go" title="rss_go"><span class="web-icon reset rss_go"></span></a></li>
+        <li><a href="#rss_valid" title="rss_valid"><span class="web-icon reset rss_valid"></span></a></li>
+        <li><a href="#ruby" title="ruby"><span class="web-icon reset ruby"></span></a></li>
+        <li><a href="#ruby_add" title="ruby_add"><span class="web-icon reset ruby_add"></span></a></li>
+        <li><a href="#ruby_delete" title="ruby_delete"><span class="web-icon reset ruby_delete"></span></a></li>
+        <li><a href="#ruby_gear" title="ruby_gear"><span class="web-icon reset ruby_gear"></span></a></li>
+        <li><a href="#ruby_get" title="ruby_get"><span class="web-icon reset ruby_get"></span></a></li>
+        <li><a href="#ruby_go" title="ruby_go"><span class="web-icon reset ruby_go"></span></a></li>
+        <li><a href="#ruby_key" title="ruby_key"><span class="web-icon reset ruby_key"></span></a></li>
+        <li><a href="#ruby_link" title="ruby_link"><span class="web-icon reset ruby_link"></span></a></li>
+        <li><a href="#ruby_put" title="ruby_put"><span class="web-icon reset ruby_put"></span></a></li>
+        <li><a href="#script" title="script"><span class="web-icon reset script"></span></a></li>
+        <li><a href="#script_add" title="script_add"><span class="web-icon reset script_add"></span></a></li>
+        <li><a href="#script_code" title="script_code"><span class="web-icon reset script_code"></span></a></li>
+        <li><a href="#script_code_red" title="script_code_red"><span class="web-icon reset script_code_red"></span></a></li>
+        <li><a href="#script_delete" title="script_delete"><span class="web-icon reset script_delete"></span></a></li>
+        <li><a href="#script_edit" title="script_edit"><span class="web-icon reset script_edit"></span></a></li>
+        <li><a href="#script_error" title="script_error"><span class="web-icon reset script_error"></span></a></li>
+        <li><a href="#script_gear" title="script_gear"><span class="web-icon reset script_gear"></span></a></li>
+        <li><a href="#script_go" title="script_go"><span class="web-icon reset script_go"></span></a></li>
+        <li><a href="#script_key" title="script_key"><span class="web-icon reset script_key"></span></a></li>
+        <li><a href="#script_lightning" title="script_lightning"><span class="web-icon reset script_lightning"></span></a></li>
+        <li><a href="#script_link" title="script_link"><span class="web-icon reset script_link"></span></a></li>
+        <li><a href="#script_palette" title="script_palette"><span class="web-icon reset script_palette"></span></a></li>
+        <li><a href="#script_save" title="script_save"><span class="web-icon reset script_save"></span></a></li>
+        <li><a href="#server" title="server"><span class="web-icon reset server"></span></a></li>
+        <li><a href="#server_add" title="server_add"><span class="web-icon reset server_add"></span></a></li>
+        <li><a href="#server_chart" title="server_chart"><span class="web-icon reset server_chart"></span></a></li>
+        <li><a href="#server_compressed" title="server_compressed"><span class="web-icon reset server_compressed"></span></a></li>
+        <li><a href="#server_connect" title="server_connect"><span class="web-icon reset server_connect"></span></a></li>
+        <li><a href="#server_database" title="server_database"><span class="web-icon reset server_database"></span></a></li>
+        <li><a href="#server_delete" title="server_delete"><span class="web-icon reset server_delete"></span></a></li>
+        <li><a href="#server_edit" title="server_edit"><span class="web-icon reset server_edit"></span></a></li>
+        <li><a href="#server_error" title="server_error"><span class="web-icon reset server_error"></span></a></li>
+        <li><a href="#server_go" title="server_go"><span class="web-icon reset server_go"></span></a></li>
+        <li><a href="#server_key" title="server_key"><span class="web-icon reset server_key"></span></a></li>
+        <li><a href="#server_lightning" title="server_lightning"><span class="web-icon reset server_lightning"></span></a></li>
+        <li><a href="#server_link" title="server_link"><span class="web-icon reset server_link"></span></a></li>
+        <li><a href="#server_uncompressed" title="server_uncompressed"><span class="web-icon reset server_uncompressed"></span></a></li>
+        <li><a href="#shading" title="shading"><span class="web-icon reset shading"></span></a></li>
+        <li><a href="#shape_align_bottom" title="shape_align_bottom"><span class="web-icon reset shape_align_bottom"></span></a></li>
+        <li><a href="#shape_align_center" title="shape_align_center"><span class="web-icon reset shape_align_center"></span></a></li>
+        <li><a href="#shape_align_left" title="shape_align_left"><span class="web-icon reset shape_align_left"></span></a></li>
+        <li><a href="#shape_align_middle" title="shape_align_middle"><span class="web-icon reset shape_align_middle"></span></a></li>
+        <li><a href="#shape_align_right" title="shape_align_right"><span class="web-icon reset shape_align_right"></span></a></li>
+        <li><a href="#shape_align_top" title="shape_align_top"><span class="web-icon reset shape_align_top"></span></a></li>
+        <li><a href="#shape_flip_horizontal" title="shape_flip_horizontal"><span class="web-icon reset shape_flip_horizontal"></span></a></li>
+        <li><a href="#shape_flip_vertical" title="shape_flip_vertical"><span class="web-icon reset shape_flip_vertical"></span></a></li>
+        <li><a href="#shape_group" title="shape_group"><span class="web-icon reset shape_group"></span></a></li>
+        <li><a href="#shape_handles" title="shape_handles"><span class="web-icon reset shape_handles"></span></a></li>
+        <li><a href="#shape_move_back" title="shape_move_back"><span class="web-icon reset shape_move_back"></span></a></li>
+        <li><a href="#shape_move_backwards" title="shape_move_backwards"><span class="web-icon reset shape_move_backwards"></span></a></li>
+        <li><a href="#shape_move_forwards" title="shape_move_forwards"><span class="web-icon reset shape_move_forwards"></span></a></li>
+        <li><a href="#shape_move_front" title="shape_move_front"><span class="web-icon reset shape_move_front"></span></a></li>
+        <li><a href="#shape_rotate_anticlockwise" title="shape_rotate_anticlockwise"><span class="web-icon reset shape_rotate_anticlockwise"></span></a></li>
+        <li><a href="#shape_rotate_clockwise" title="shape_rotate_clockwise"><span class="web-icon reset shape_rotate_clockwise"></span></a></li>
+        <li><a href="#shape_square" title="shape_square"><span class="web-icon reset shape_square"></span></a></li>
+        <li><a href="#shape_square_add" title="shape_square_add"><span class="web-icon reset shape_square_add"></span></a></li>
+        <li><a href="#shape_square_delete" title="shape_square_delete"><span class="web-icon reset shape_square_delete"></span></a></li>
+        <li><a href="#shape_square_edit" title="shape_square_edit"><span class="web-icon reset shape_square_edit"></span></a></li>
+        <li><a href="#shape_square_error" title="shape_square_error"><span class="web-icon reset shape_square_error"></span></a></li>
+        <li><a href="#shape_square_go" title="shape_square_go"><span class="web-icon reset shape_square_go"></span></a></li>
+        <li><a href="#shape_square_key" title="shape_square_key"><span class="web-icon reset shape_square_key"></span></a></li>
+        <li><a href="#shape_square_link" title="shape_square_link"><span class="web-icon reset shape_square_link"></span></a></li>
+        <li><a href="#shape_ungroup" title="shape_ungroup"><span class="web-icon reset shape_ungroup"></span></a></li>
+        <li><a href="#shield" title="shield"><span class="web-icon reset shield"></span></a></li>
+        <li><a href="#shield_add" title="shield_add"><span class="web-icon reset shield_add"></span></a></li>
+        <li><a href="#shield_delete" title="shield_delete"><span class="web-icon reset shield_delete"></span></a></li>
+        <li><a href="#shield_go" title="shield_go"><span class="web-icon reset shield_go"></span></a></li>
+        <li><a href="#sitemap" title="sitemap"><span class="web-icon reset sitemap"></span></a></li>
+        <li><a href="#sitemap_color" title="sitemap_color"><span class="web-icon reset sitemap_color"></span></a></li>
+        <li><a href="#sound" title="sound"><span class="web-icon reset sound"></span></a></li>
+        <li><a href="#sound_add" title="sound_add"><span class="web-icon reset sound_add"></span></a></li>
+        <li><a href="#sound_delete" title="sound_delete"><span class="web-icon reset sound_delete"></span></a></li>
+        <li><a href="#sound_low" title="sound_low"><span class="web-icon reset sound_low"></span></a></li>
+        <li><a href="#sound_mute" title="sound_mute"><span class="web-icon reset sound_mute"></span></a></li>
+        <li><a href="#sound_none" title="sound_none"><span class="web-icon reset sound_none"></span></a></li>
+        <li><a href="#spellcheck" title="spellcheck"><span class="web-icon reset spellcheck"></span></a></li>
+        <li><a href="#sport_8ball" title="sport_8ball"><span class="web-icon reset sport_8ball"></span></a></li>
+        <li><a href="#sport_basketball" title="sport_basketball"><span class="web-icon reset sport_basketball"></span></a></li>
+        <li><a href="#sport_football" title="sport_football"><span class="web-icon reset sport_football"></span></a></li>
+        <li><a href="#sport_golf" title="sport_golf"><span class="web-icon reset sport_golf"></span></a></li>
+        <li><a href="#sport_raquet" title="sport_raquet"><span class="web-icon reset sport_raquet"></span></a></li>
+        <li><a href="#sport_shuttlecock" title="sport_shuttlecock"><span class="web-icon reset sport_shuttlecock"></span></a></li>
+        <li><a href="#sport_soccer" title="sport_soccer"><span class="web-icon reset sport_soccer"></span></a></li>
+        <li><a href="#sport_tennis" title="sport_tennis"><span class="web-icon reset sport_tennis"></span></a></li>
+        <li><a href="#star" title="star"><span class="web-icon reset star"></span></a></li>
+        <li><a href="#status_away" title="status_away"><span class="web-icon reset status_away"></span></a></li>
+        <li><a href="#status_busy" title="status_busy"><span class="web-icon reset status_busy"></span></a></li>
+        <li><a href="#status_offline" title="status_offline"><span class="web-icon reset status_offline"></span></a></li>
+        <li><a href="#status_online" title="status_online"><span class="web-icon reset status_online"></span></a></li>
+        <li><a href="#stop" title="stop"><span class="web-icon reset stop"></span></a></li>
+        <li><a href="#style" title="style"><span class="web-icon reset style"></span></a></li>
+        <li><a href="#style_add" title="style_add"><span class="web-icon reset style_add"></span></a></li>
+        <li><a href="#style_delete" title="style_delete"><span class="web-icon reset style_delete"></span></a></li>
+        <li><a href="#style_edit" title="style_edit"><span class="web-icon reset style_edit"></span></a></li>
+        <li><a href="#style_go" title="style_go"><span class="web-icon reset style_go"></span></a></li>
+        <li><a href="#sum" title="sum"><span class="web-icon reset sum"></span></a></li>
+        <li><a href="#tab" title="tab"><span class="web-icon reset tab"></span></a></li>
+        <li><a href="#tab_add" title="tab_add"><span class="web-icon reset tab_add"></span></a></li>
+        <li><a href="#tab_delete" title="tab_delete"><span class="web-icon reset tab_delete"></span></a></li>
+        <li><a href="#tab_edit" title="tab_edit"><span class="web-icon reset tab_edit"></span></a></li>
+        <li><a href="#tab_go" title="tab_go"><span class="web-icon reset tab_go"></span></a></li>
+        <li><a href="#table" title="table"><span class="web-icon reset table"></span></a></li>
+        <li><a href="#table_add" title="table_add"><span class="web-icon reset table_add"></span></a></li>
+        <li><a href="#table_delete" title="table_delete"><span class="web-icon reset table_delete"></span></a></li>
+        <li><a href="#table_edit" title="table_edit"><span class="web-icon reset table_edit"></span></a></li>
+        <li><a href="#table_error" title="table_error"><span class="web-icon reset table_error"></span></a></li>
+        <li><a href="#table_gear" title="table_gear"><span class="web-icon reset table_gear"></span></a></li>
+        <li><a href="#table_go" title="table_go"><span class="web-icon reset table_go"></span></a></li>
+        <li><a href="#table_key" title="table_key"><span class="web-icon reset table_key"></span></a></li>
+        <li><a href="#table_lightning" title="table_lightning"><span class="web-icon reset table_lightning"></span></a></li>
+        <li><a href="#table_link" title="table_link"><span class="web-icon reset table_link"></span></a></li>
+        <li><a href="#table_multiple" title="table_multiple"><span class="web-icon reset table_multiple"></span></a></li>
+        <li><a href="#table_refresh" title="table_refresh"><span class="web-icon reset table_refresh"></span></a></li>
+        <li><a href="#table_relationship" title="table_relationship"><span class="web-icon reset table_relationship"></span></a></li>
+        <li><a href="#table_row_delete" title="table_row_delete"><span class="web-icon reset table_row_delete"></span></a></li>
+        <li><a href="#table_row_insert" title="table_row_insert"><span class="web-icon reset table_row_insert"></span></a></li>
+        <li><a href="#table_save" title="table_save"><span class="web-icon reset table_save"></span></a></li>
+        <li><a href="#table_sort" title="table_sort"><span class="web-icon reset table_sort"></span></a></li>
+        <li><a href="#tag" title="tag"><span class="web-icon reset tag"></span></a></li>
+        <li><a href="#tag_blue" title="tag_blue"><span class="web-icon reset tag_blue"></span></a></li>
+        <li><a href="#tag_blue_add" title="tag_blue_add"><span class="web-icon reset tag_blue_add"></span></a></li>
+        <li><a href="#tag_blue_delete" title="tag_blue_delete"><span class="web-icon reset tag_blue_delete"></span></a></li>
+        <li><a href="#tag_blue_edit" title="tag_blue_edit"><span class="web-icon reset tag_blue_edit"></span></a></li>
+        <li><a href="#tag_green" title="tag_green"><span class="web-icon reset tag_green"></span></a></li>
+        <li><a href="#tag_orange" title="tag_orange"><span class="web-icon reset tag_orange"></span></a></li>
+        <li><a href="#tag_pink" title="tag_pink"><span class="web-icon reset tag_pink"></span></a></li>
+        <li><a href="#tag_purple" title="tag_purple"><span class="web-icon reset tag_purple"></span></a></li>
+        <li><a href="#tag_red" title="tag_red"><span class="web-icon reset tag_red"></span></a></li>
+        <li><a href="#tag_yellow" title="tag_yellow"><span class="web-icon reset tag_yellow"></span></a></li>
+        <li><a href="#telephone" title="telephone"><span class="web-icon reset telephone"></span></a></li>
+        <li><a href="#telephone_add" title="telephone_add"><span class="web-icon reset telephone_add"></span></a></li>
+        <li><a href="#telephone_delete" title="telephone_delete"><span class="web-icon reset telephone_delete"></span></a></li>
+        <li><a href="#telephone_edit" title="telephone_edit"><span class="web-icon reset telephone_edit"></span></a></li>
+        <li><a href="#telephone_error" title="telephone_error"><span class="web-icon reset telephone_error"></span></a></li>
+        <li><a href="#telephone_go" title="telephone_go"><span class="web-icon reset telephone_go"></span></a></li>
+        <li><a href="#telephone_key" title="telephone_key"><span class="web-icon reset telephone_key"></span></a></li>
+        <li><a href="#telephone_link" title="telephone_link"><span class="web-icon reset telephone_link"></span></a></li>
+        <li><a href="#television" title="television"><span class="web-icon reset television"></span></a></li>
+        <li><a href="#television_add" title="television_add"><span class="web-icon reset television_add"></span></a></li>
+        <li><a href="#television_delete" title="television_delete"><span class="web-icon reset television_delete"></span></a></li>
+        <li><a href="#text_align_center" title="text_align_center"><span class="web-icon reset text_align_center"></span></a></li>
+        <li><a href="#text_align_justify" title="text_align_justify"><span class="web-icon reset text_align_justify"></span></a></li>
+        <li><a href="#text_align_left" title="text_align_left"><span class="web-icon reset text_align_left"></span></a></li>
+        <li><a href="#text_align_right" title="text_align_right"><span class="web-icon reset text_align_right"></span></a></li>
+        <li><a href="#text_allcaps" title="text_allcaps"><span class="web-icon reset text_allcaps"></span></a></li>
+        <li><a href="#text_bold" title="text_bold"><span class="web-icon reset text_bold"></span></a></li>
+        <li><a href="#text_columns" title="text_columns"><span class="web-icon reset text_columns"></span></a></li>
+        <li><a href="#text_dropcaps" title="text_dropcaps"><span class="web-icon reset text_dropcaps"></span></a></li>
+        <li><a href="#text_heading_1" title="text_heading_1"><span class="web-icon reset text_heading_1"></span></a></li>
+        <li><a href="#text_heading_2" title="text_heading_2"><span class="web-icon reset text_heading_2"></span></a></li>
+        <li><a href="#text_heading_3" title="text_heading_3"><span class="web-icon reset text_heading_3"></span></a></li>
+        <li><a href="#text_heading_4" title="text_heading_4"><span class="web-icon reset text_heading_4"></span></a></li>
+        <li><a href="#text_heading_5" title="text_heading_5"><span class="web-icon reset text_heading_5"></span></a></li>
+        <li><a href="#text_heading_6" title="text_heading_6"><span class="web-icon reset text_heading_6"></span></a></li>
+        <li><a href="#text_horizontalrule" title="text_horizontalrule"><span class="web-icon reset text_horizontalrule"></span></a></li>
+        <li><a href="#text_indent" title="text_indent"><span class="web-icon reset text_indent"></span></a></li>
+        <li><a href="#text_indent_remove" title="text_indent_remove"><span class="web-icon reset text_indent_remove"></span></a></li>
+        <li><a href="#text_italic" title="text_italic"><span class="web-icon reset text_italic"></span></a></li>
+        <li><a href="#text_kerning" title="text_kerning"><span class="web-icon reset text_kerning"></span></a></li>
+        <li><a href="#text_letter_omega" title="text_letter_omega"><span class="web-icon reset text_letter_omega"></span></a></li>
+        <li><a href="#text_letterspacing" title="text_letterspacing"><span class="web-icon reset text_letterspacing"></span></a></li>
+        <li><a href="#text_linespacing" title="text_linespacing"><span class="web-icon reset text_linespacing"></span></a></li>
+        <li><a href="#text_list_bullets" title="text_list_bullets"><span class="web-icon reset text_list_bullets"></span></a></li>
+        <li><a href="#text_list_numbers" title="text_list_numbers"><span class="web-icon reset text_list_numbers"></span></a></li>
+        <li><a href="#text_lowercase" title="text_lowercase"><span class="web-icon reset text_lowercase"></span></a></li>
+        <li><a href="#text_padding_bottom" title="text_padding_bottom"><span class="web-icon reset text_padding_bottom"></span></a></li>
+        <li><a href="#text_padding_left" title="text_padding_left"><span class="web-icon reset text_padding_left"></span></a></li>
+        <li><a href="#text_padding_right" title="text_padding_right"><span class="web-icon reset text_padding_right"></span></a></li>
+        <li><a href="#text_padding_top" title="text_padding_top"><span class="web-icon reset text_padding_top"></span></a></li>
+        <li><a href="#text_replace" title="text_replace"><span class="web-icon reset text_replace"></span></a></li>
+        <li><a href="#text_signature" title="text_signature"><span class="web-icon reset text_signature"></span></a></li>
+        <li><a href="#text_smallcaps" title="text_smallcaps"><span class="web-icon reset text_smallcaps"></span></a></li>
+        <li><a href="#text_strikethrough" title="text_strikethrough"><span class="web-icon reset text_strikethrough"></span></a></li>
+        <li><a href="#text_subscript" title="text_subscript"><span class="web-icon reset text_subscript"></span></a></li>
+        <li><a href="#text_superscript" title="text_superscript"><span class="web-icon reset text_superscript"></span></a></li>
+        <li><a href="#text_underline" title="text_underline"><span class="web-icon reset text_underline"></span></a></li>
+        <li><a href="#text_uppercase" title="text_uppercase"><span class="web-icon reset text_uppercase"></span></a></li>
+        <li><a href="#textfield" title="textfield"><span class="web-icon reset textfield"></span></a></li>
+        <li><a href="#textfield_add" title="textfield_add"><span class="web-icon reset textfield_add"></span></a></li>
+        <li><a href="#textfield_delete" title="textfield_delete"><span class="web-icon reset textfield_delete"></span></a></li>
+        <li><a href="#textfield_key" title="textfield_key"><span class="web-icon reset textfield_key"></span></a></li>
+        <li><a href="#textfield_rename" title="textfield_rename"><span class="web-icon reset textfield_rename"></span></a></li>
+        <li><a href="#thumb_down" title="thumb_down"><span class="web-icon reset thumb_down"></span></a></li>
+        <li><a href="#thumb_up" title="thumb_up"><span class="web-icon reset thumb_up"></span></a></li>
+        <li><a href="#tick" title="tick"><span class="web-icon reset tick"></span></a></li>
+        <li><a href="#time" title="time"><span class="web-icon reset time"></span></a></li>
+        <li><a href="#time_add" title="time_add"><span class="web-icon reset time_add"></span></a></li>
+        <li><a href="#time_delete" title="time_delete"><span class="web-icon reset time_delete"></span></a></li>
+        <li><a href="#time_go" title="time_go"><span class="web-icon reset time_go"></span></a></li>
+        <li><a href="#timeline_marker" title="timeline_marker"><span class="web-icon reset timeline_marker"></span></a></li>
+        <li><a href="#transmit" title="transmit"><span class="web-icon reset transmit"></span></a></li>
+        <li><a href="#transmit_add" title="transmit_add"><span class="web-icon reset transmit_add"></span></a></li>
+        <li><a href="#transmit_blue" title="transmit_blue"><span class="web-icon reset transmit_blue"></span></a></li>
+        <li><a href="#transmit_delete" title="transmit_delete"><span class="web-icon reset transmit_delete"></span></a></li>
+        <li><a href="#transmit_edit" title="transmit_edit"><span class="web-icon reset transmit_edit"></span></a></li>
+        <li><a href="#transmit_error" title="transmit_error"><span class="web-icon reset transmit_error"></span></a></li>
+        <li><a href="#transmit_go" title="transmit_go"><span class="web-icon reset transmit_go"></span></a></li>
+        <li><a href="#tux" title="tux"><span class="web-icon reset tux"></span></a></li>
+        <li><a href="#user" title="user"><span class="web-icon reset user"></span></a></li>
+        <li><a href="#user_add" title="user_add"><span class="web-icon reset user_add"></span></a></li>
+        <li><a href="#user_comment" title="user_comment"><span class="web-icon reset user_comment"></span></a></li>
+        <li><a href="#user_delete" title="user_delete"><span class="web-icon reset user_delete"></span></a></li>
+        <li><a href="#user_edit" title="user_edit"><span class="web-icon reset user_edit"></span></a></li>
+        <li><a href="#user_female" title="user_female"><span class="web-icon reset user_female"></span></a></li>
+        <li><a href="#user_go" title="user_go"><span class="web-icon reset user_go"></span></a></li>
+        <li><a href="#user_gray" title="user_gray"><span class="web-icon reset user_gray"></span></a></li>
+        <li><a href="#user_green" title="user_green"><span class="web-icon reset user_green"></span></a></li>
+        <li><a href="#user_orange" title="user_orange"><span class="web-icon reset user_orange"></span></a></li>
+        <li><a href="#user_red" title="user_red"><span class="web-icon reset user_red"></span></a></li>
+        <li><a href="#user_suit" title="user_suit"><span class="web-icon reset user_suit"></span></a></li>
+        <li><a href="#vcard" title="vcard"><span class="web-icon reset vcard"></span></a></li>
+        <li><a href="#vcard_add" title="vcard_add"><span class="web-icon reset vcard_add"></span></a></li>
+        <li><a href="#vcard_delete" title="vcard_delete"><span class="web-icon reset vcard_delete"></span></a></li>
+        <li><a href="#vcard_edit" title="vcard_edit"><span class="web-icon reset vcard_edit"></span></a></li>
+        <li><a href="#vector" title="vector"><span class="web-icon reset vector"></span></a></li>
+        <li><a href="#vector_add" title="vector_add"><span class="web-icon reset vector_add"></span></a></li>
+        <li><a href="#vector_delete" title="vector_delete"><span class="web-icon reset vector_delete"></span></a></li>
+        <li><a href="#wand" title="wand"><span class="web-icon reset wand"></span></a></li>
+        <li><a href="#weather_clouds" title="weather_clouds"><span class="web-icon reset weather_clouds"></span></a></li>
+        <li><a href="#weather_cloudy" title="weather_cloudy"><span class="web-icon reset weather_cloudy"></span></a></li>
+        <li><a href="#weather_lightning" title="weather_lightning"><span class="web-icon reset weather_lightning"></span></a></li>
+        <li><a href="#weather_rain" title="weather_rain"><span class="web-icon reset weather_rain"></span></a></li>
+        <li><a href="#weather_snow" title="weather_snow"><span class="web-icon reset weather_snow"></span></a></li>
+        <li><a href="#weather_sun" title="weather_sun"><span class="web-icon reset weather_sun"></span></a></li>
+        <li><a href="#webcam" title="webcam"><span class="web-icon reset webcam"></span></a></li>
+        <li><a href="#webcam_add" title="webcam_add"><span class="web-icon reset webcam_add"></span></a></li>
+        <li><a href="#webcam_delete" title="webcam_delete"><span class="web-icon reset webcam_delete"></span></a></li>
+        <li><a href="#webcam_error" title="webcam_error"><span class="web-icon reset webcam_error"></span></a></li>
+        <li><a href="#world" title="world"><span class="web-icon reset world"></span></a></li>
+        <li><a href="#world_add" title="world_add"><span class="web-icon reset world_add"></span></a></li>
+        <li><a href="#world_delete" title="world_delete"><span class="web-icon reset world_delete"></span></a></li>
+        <li><a href="#world_edit" title="world_edit"><span class="web-icon reset world_edit"></span></a></li>
+        <li><a href="#world_go" title="world_go"><span class="web-icon reset world_go"></span></a></li>
+        <li><a href="#world_link" title="world_link"><span class="web-icon reset world_link"></span></a></li>
+        <li><a href="#wrench" title="wrench"><span class="web-icon reset wrench"></span></a></li>
+        <li><a href="#wrench_orange" title="wrench_orange"><span class="web-icon reset wrench_orange"></span></a></li>
+        <li><a href="#xhtml" title="xhtml"><span class="web-icon reset xhtml"></span></a></li>
+        <li><a href="#xhtml_add" title="xhtml_add"><span class="web-icon reset xhtml_add"></span></a></li>
+        <li><a href="#xhtml_delete" title="xhtml_delete"><span class="web-icon reset xhtml_delete"></span></a></li>
+        <li><a href="#xhtml_go" title="xhtml_go"><span class="web-icon reset xhtml_go"></span></a></li>
+        <li><a href="#xhtml_valid" title="xhtml_valid"><span class="web-icon reset xhtml_valid"></span></a></li>
+        <li><a href="#zoom" title="zoom"><span class="web-icon reset zoom"></span></a></li>
+        <li><a href="#zoom_in" title="zoom_in"><span class="web-icon reset zoom_in"></span></a></li>
+        <li><a href="#zoom_out" title="zoom_out"><span class="web-icon reset zoom_out"></span></a></li>    </ul>
+    <br class="clear" />
+</div>
+
+<h2 id="usage">Sprite usage</h2>
+
+<p>To use the sprite, just include the CSS definition file in your HTML document:</p>
+
+<pre class="code">
+	&lt;link rel="stylesheet" href="path/to/src/silk-icons-sprite.css" /&gt;
+	// or the minified version (light weight):
+	&lt;link rel="stylesheet" href="path/to/src/silk-icons-sprite.min.css" /&gt;
+</pre>
+
+<p>The sprite is used adding specific CSS classes to a DOM entity such as a <code>span</code>.
+Each item of the sprite is accessible by using one of the global CSS classe <code>web-icon</code>;
+each item will be an empty square of 16 pixels by 16 pixels with the wanted image as background.
+This background is defined adding the name of the item as a CSS class. For example, to construct an item using the "print" image,
+the CSS class to use will be <code>web-icon print</code>.</p>
+
+<p>A special <code>reset</code> class can be used to reset some basic CSS definitions for an item, such as its
+border (<em>none</em>), its margins and paddings (<em>0</em>).</p>
+
+<p>A complete usage synopsis of the sprites could be:</p>
+
+<pre style="font-weight: bold; text-align: center;">
+    &lt;span class="web-icon [reset] icon_name"&gt;&lt;/span&gt;
+</pre>
+
+        </article>
+    </div>
+
+    <footer id="footer">
+		<div class="credits float-left">
+		    This page is <a href="" title="Check now online" id="html_validation">HTML5</a> & <a href="" title="Check now online" id="css_validation">CSS3</a> valid.
+		</div>
+		<div class="credits float-right">
+            <a href="http://www.famfamfam.com/lab/icons/silk/">FamFamFam Silk icons</a> package by <a href="http://www.famfamfam.com">FamFamFam</a> under <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> license.
+            <br />
+            <a href="http://github.com/atelierspierrot/famfamfam-silk-sprite">atelierspierrot/famfamfam-silk-sprite</a> package by <a href="http://github.com/atelierspierrot">Les Ateliers Pierrot</a> under <a href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0</a> original license.
+		</div>
+    </footer>
+
+    <div class="back_menu" id="short_navigation">
+        <a href="#" title="See navigation menu" id="short_menu_handler"><span class="text">Navigation Menu</span></a>
+        &nbsp;|&nbsp;
+        <a href="#footer" title="Go to the bottom of the page"><span class="text">Go to bottom&nbsp;</span>&darr;</a>
+        &nbsp;|&nbsp;
+        <a href="#top" title="Back to the top of the page"><span class="text">Back to top&nbsp;</span>&uarr;</a>
+        <ul id="short_menu" class="menu" role="navigation"></ul>
+    </div>
+
+    <div id="message_box" class="msg_box"></div>
+
+<!-- jQuery lib -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/jquery/jquery-last.min.js"><\/script>')</script>
+<script>$.uiBackCompat = false;</script>
+
+<!-- jQuery.highlight plugin -->
+<script src="assets/jquery/jquery.highlight.js"></script>
+
+<!-- scripts for demo -->
+<script src="assets/scripts.js"></script>
+
+<script>
+$(function() {
+    initBacklinks();
+    activateMenuItem();
+    getToHash();
+    buildFootNotes();
+    addCSSValidatorLink('assets/styles.css');
+    addHTMLValidatorLink();
+    $("#user_agent").html( navigator.userAgent );
+    $('pre.code').highlight({source:0, indent:'tabs', code_lang: 'data-language'});
+    initHandler('source');
+    $('#source_block_content').text( $('#js_code').html() );
+});
+function changeOverviewBackground() {
+    var _color = $('#change_overview_bg option:selected').val(),
+        wrapper = $('.sprite-overview-wrapper');
+    wrapper.css('background-color', '#'+_color);
+    return false;
+}
+</script>
+<script id="js_code">
+</script>
+</body>
+</html>
