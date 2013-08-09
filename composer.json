@@ -1,6 +1,6 @@
 {
     "name": "atelierspierrot/famfamfam-silk-sprite",
-    "type": "library",
+    "type": "library-assets",
     "description": "The UNOFFICIAL sprite of the Silk icons by FamFamFam (http://www.famfamfam.com/lab/icons/silk/)",
     "keywords": [ "icons", "sprite", "famfamfam" ],
     "homepage": "http://github.com/atelierspierrot/famfamfam-silk-sprite",
@@ -13,5 +13,6 @@
             "name": "Les Ateliers Pierrot",
             "email": "contact@ateliers-pierrot.fr",
             "homepage": "http://www.ateliers-pierrot.fr/"
-    }]
+    }],
+    "extra": { "assets-dir": "src" }
 }
