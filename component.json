@@ -1,0 +1,6 @@
+{
+  "name": "famfamfam-silk-sprite",
+  "version": "1.0.0",
+  "main": "src/silk-icons-sprite.min.css",
+  "ignore": [ "demo" ]
+}
