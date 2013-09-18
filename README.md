@@ -4,9 +4,7 @@ FamFamFam - Silk icons CSS sprite
 The **UNOFFICIAL** sprites of the *FamFamFam Silk web icons*
 by [FamFamFam](http://www.famfamfam.com).
 
-**!! - This work is unofficial and is not liable for FamFamFam,** but was developed
-and is available for public download and use with their agreement in the conditions
-explained below.
+**!! - This work is unofficial and is not liable for FamFamFam.**
 
 
 ## Overview
