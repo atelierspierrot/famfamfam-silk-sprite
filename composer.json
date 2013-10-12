@@ -23,7 +23,7 @@
     "extra": {
         "assets-dir": "src",
         "assets-presets": {
-            "gentleface-sprites": {
+            "famfamfam-silk-icons": {
                 "css": "silk-icons-sprite.min.css"
             }
         }
