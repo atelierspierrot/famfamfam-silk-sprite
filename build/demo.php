@@ -1059,7 +1059,7 @@ ul.sprite-overview li a { display: inline-block; }
         </hgroup>
         <div class="hat">
             <p>This page is a demonstration/presentation of the CSS sprite constructed on the <a href="http://www.famfamfam.com/lab/icons/silk/" title="See online">FamFamFam free "Silk" web-icons set</a>. The original set of icons is proposed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Read the license online">Creative Commons "Attribution"</a> license, free of use as long as you mention the image credits to FamFamFam.</p>
-            <p>This work is unofficial and is not liable for FamFamFam but was developed and is available for public download and use with their agreement in the conditions explained below.</p>
+            <p>This work is unofficial and is not liable for FamFamFam.</p>
         </div>
     </header>
 
@@ -1076,6 +1076,24 @@ ul.sprite-overview li a { display: inline-block; }
         <div class="info">
             <p><a href="http://github.com/atelierspierrot/famfamfam-silk-sprite">See online on GitHub</a></p>
             <p class="comment">The sources of this package are hosted on <a href="http://github.com">GitHub</a>. To follow sources updates, report a bug or read opened bug tickets and any other information, please see the GitHub website above.</p>
+        </div>
+
+        <div class="info">
+            <div class="addthis_toolbox addthis_default_style addthis_16x16_style">
+                <a href="https://github.com/atelierspierrot/famfamfam-silk-sprite" target="_blank" title="See on GitHub">
+                    <span class="at16nc at300bs at15nc atGitHub"></span>
+                </a>
+                <a class="addthis_button_email"></a>
+                <a class="addthis_button_print"></a>
+                <a class="addthis_button_compact"></a><a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+            <script type="text/javascript">
+            var addthis_config = {data_track_addressbar:false};
+            var addthis_share = {
+                url: "https://github.com/atelierspierrot/famfamfam-silk-sprite"
+            };
+            </script>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
         </div>
 
     	<p class="credits" id="user_agent"></p>
@@ -1128,7 +1146,7 @@ EOT;
 </pre>
 
 <p>The sprite is used adding specific CSS classes to a DOM entity such as a <code>span</code>.
-Each item of the sprite is accessible by using one of the global CSS classe <code>web-icon</code>;
+Each item of the sprite is accessible by using one of the global CSS class <code>web-icon</code>;
 each item will be an empty square of 16 pixels by 16 pixels with the wanted image as background.
 This background is defined adding the name of the item as a CSS class. For example, to construct an item using the "print" image,
 the CSS class to use will be <code>web-icon print</code>.</p>
