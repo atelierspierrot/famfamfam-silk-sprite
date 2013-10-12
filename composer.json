@@ -17,9 +17,6 @@
         "assets-dir": "src",
         "assets-presets": {
             "famfamfam-silk-icons": { "css": "silk-icons-sprite.min.css" }
-        },
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     }
 }
