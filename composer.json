@@ -4,15 +4,22 @@
     "description": "The UNOFFICIAL sprite of the Silk icons by FamFamFam (http://www.famfamfam.com/lab/icons/silk/)",
     "keywords": [ "icons", "sprite", "famfamfam" ],
     "homepage": "http://github.com/atelierspierrot/famfamfam-silk-sprite",
-    "version": "1.0.0",
     "license": "CC-BY-NC-3.0",
     "authors": [{
-            "name": "FamFamFam",
-            "homepage": "http://www.famfamfam.com/"
-        },{
-            "name": "Les Ateliers Pierrot",
-            "email": "contact@ateliers-pierrot.fr",
-            "homepage": "http://www.ateliers-pierrot.fr/"
+        "name": "FamFamFam",
+        "homepage": "http://www.famfamfam.com/"
+    },{
+        "name": "Les Ateliers Pierrot",
+        "email": "contact@ateliers-pierrot.fr",
+        "homepage": "http://www.ateliers-pierrot.fr/"
     }],
-    "extra": { "assets-dir": "src" }
+    "extra": {
+        "assets-dir": "src",
+        "assets-presets": {
+            "famfamfam-silk-icons": { "css": "silk-icons-sprite.min.css" }
+        }
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
